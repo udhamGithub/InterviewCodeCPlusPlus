@@ -1,0 +1,1 @@
+ArryPointer.d: ../ArryPointer.cpp

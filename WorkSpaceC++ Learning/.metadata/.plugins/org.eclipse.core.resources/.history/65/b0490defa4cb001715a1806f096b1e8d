@@ -1,0 +1,40 @@
+/*
+ * frindfunction.cpp
+ *
+ *  Created on: 17-Nov-2017
+ *      Author: ee205237
+ */
+#include<iostream>
+using namespace std;
+
+class Y
+{
+	int salary;
+	char * name;
+};
+
+class AB
+{
+	int a;
+	int b;
+	AB()
+	{
+
+	}
+};
+
+int incometax(int salary)
+{
+	int tax= (salary/100);//just simple
+	return tax;
+}
+
+int main()
+{
+	AB obj1,obj2;
+
+	return 0;
+}
+
+
+

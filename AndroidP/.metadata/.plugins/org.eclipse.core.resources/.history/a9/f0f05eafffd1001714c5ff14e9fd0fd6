@@ -1,0 +1,30 @@
+/*
+ * mutexVsSemaphor.cpp
+ *
+ *  Created on: 20-Nov-2017
+ *      Author: udham
+ */
+#include<iostream>
+#include<pthread.h>
+using namespace std;
+void *Function1_Sum(void *)
+{
+	//crtical resource
+}
+void *Thread_2()
+{
+	//crtical resource
+}
+
+int main()
+{
+	pthread_t pid1;
+	pthread_t pid2;
+
+	cout<<"My First Program";
+	return 0;
+}
+
+
+
+

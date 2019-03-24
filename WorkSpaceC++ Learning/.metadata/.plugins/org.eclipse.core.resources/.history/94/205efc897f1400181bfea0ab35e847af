@@ -1,0 +1,54 @@
+#if 0
+	-All most Any TCP/UDP communication,use to happen through ,socket
+	-Socket used bu
+	-UML Digram of C++ Interface for TCP IP
+	-Server socket and client socket both dervide from socket class
+	-server socket can be inherited to ,webserver,Ecocaht,multiserver
+
+	https://www.geeksforgeeks.org/socket-programming-cc/
+	http://pubs.opengroup.org/onlinepubs/7908799/xns/arpainet.h.html
+#endif
+
+#include <stdio.h>
+#include <string.h>
+#include<sys/socket.h>
+#include<unistd.h>
+#include <arpa/inet.h>
+#include <netinet/in.h>
+int main()
+{
+
+	struct  sockadd_in server_adress;
+	//(struct sockaddr*)&serv_addr,
+	int clientsockfd = 0, valread;
+	int return_value=0;
+	int readlenth;
+	char str[100];
+
+	//1.0 Creating socket file descriptor
+	clientsockfd = socket(AF_INET,SOCK_STREAM,0);
+	if(clientsockfd <0)
+	{
+		printf("Socket opening error \n");
+	}
+	//2.o set server address
+	memset(&server_adress,'0',sizeof(server_adress));
+	.
+	server_adress.sin_family = AF_INET;
+	server_adress.sin_port = htons(8080);
+
+	//3.connect the socket
+	return_value=connect(clientsockfd,(struct sockaddr*)&server_adress,sizeof(server_adress));
+	if(return_value < 0)
+	{
+		printf("Socket Error");
+	}
+	//4.Send the data
+
+	send(clientsockfd,"udhamSinghYadav",sizeof("udhamSinghYadav"),0);
+
+	readlenth=read(clientsockfd,str,16);
+
+	return 0;
+}
+

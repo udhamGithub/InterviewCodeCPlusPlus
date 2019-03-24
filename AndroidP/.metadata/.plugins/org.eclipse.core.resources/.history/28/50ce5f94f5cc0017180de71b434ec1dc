@@ -1,0 +1,54 @@
+/*
+ * classArray.cpp
+ *
+ *  Created on: 19-Nov-2017
+ *      Author: udham
+ */
+/*
+ * classTemplate.cpp
+ *
+ *  Created on: 19-Nov-2017
+ *      Author: udham
+ */
+#include<iostream>
+using namespace std;
+
+template <typename T>
+class ArrayClass
+{
+	T *ptr;
+	int size;
+public:
+	ArrayClass(T xArray[],T  vsize)
+	{
+		ptr = new T[vsize]; //size in array new must have integaral type
+		size=vsize;
+
+		for(int i=0;i<vsize;i++)
+		{
+			ptr[i]=	xArray[i];
+		}
+		cout<<"Aconstructyre";
+	}
+	void print()
+	{
+		for(int i=0;i<size;i++)
+		{
+			cout<< ptr[i];
+		}
+
+	}
+};
+int main()
+{
+	int ptr=NULL;
+	int A[]={1,2,3,4,5};
+	ArrayClass<int>obj(A,5);  //missing template arguments before ‘obj’
+	obj.print();
+
+	float B[]={9,8,7,6,5};
+
+	ArrayClass<float>obj2(B,5);
+	//obj2.print();
+
+}

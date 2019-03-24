@@ -1,0 +1,115 @@
+#include<iostream>
+using namespace std;
+#if 0
+-what is constant cast
+-cstyle cast v/s c++ cast
+	reinterpret_cast,dynamic_cast,static cast,constant_cast
+-Converesion,
+		-Objct type
+		-Refrence and pointer type
+		-Similar data type()
+		-built in data type-userdefiend data type
+#endif
+//--Simple class and inheritance no overriding-----------------------------------------
+class Base
+{	int a, b;
+public:
+	Base(){cout<<"Base daata"<<endl;}
+	~Base()	{}
+};
+class Derived:Base
+{
+	int x,y;
+public:
+	Derived(){cout<<"Base daata"<<endl;}
+	~Derived(){ }
+};
+//-------------Class Having overiding------------------------
+class Shape
+{
+	int z;
+	virtual void draw()
+	{
+		cout<<"Draw::Shape"<<endl;
+	}
+public:
+	Shape(){cout<<"shape"<<endl;}
+};
+class Circle
+{
+	int fs;
+	void draw()
+	{
+			cout<<"Draw::Shape"<<endl;
+	}
+public:
+	Circle(){cout<<"Circle"<<endl;}
+};
+//---Indepedent claass
+class Man
+{
+public:
+	Man(){cout<<"Man"<<endl;}
+};
+class Animal
+{
+public:
+	Animal(){cout<<"Animal"<<endl;}
+};
+int main()
+{
+	cout<<"My main Program:"<<endl;
+	unsigned char chardata=10; //1 Byte
+	//1.--Simple c style cast----
+	//int *ptr=&data;     //compilation Error
+	int *ptr=(int*)&chardata; //pointer is 4 byte integer
+		//casting sucessfull but it is dangerous and it can cause segmentaion fault.
+		//User has to aware what  he is  doing
+	*ptr = 100;
+	cout<< "data:---"<<chardata;
+	//*ptr = 100;
+    //Static cast------------------------------------------------------------
+	int intdata=20;
+	//int *ptr2= static_cast<int*>&data;
+			//error as not same type ,Save user to dangerous situation,
+			//Now he need to be carefull about ,his conversion
+	//So it  allow only type-safe conversion,take same type,so usefull in inhritance
+	int *ptrSt= static_cast<int*>(&intdata);//Sucessfull
+
+	//Re_interpretCast---------------------------------------------------------
+	int *ptRe= reinterpret_cast<int*>(&chardata);//no compilation Issue
+	*ptRe=12;									 //Work Same As  normal c-casting,for diffretent type conversion
+												 //So this is also same  as c-style and dangerous in C++,
+	//-stil why we use-see the below  reason case
+			//It requires case where we want conversion b/w  diffrent type in c++.
+			//where static cast and dynamic cast will not help us.
+			//Serch such type of convesrion real example in c++ ,where only re_interpret_cast work.
+			//e.in c++ client register it class ,but server provide the interface as integer pointer arguement.
+			//as he store this adress in integer array.
+			//write the code for same
+	//Dynamic Cast---------------------------------------------------------
+	//int *ptrD= dynamic_cast<int*>(&chardata); //compilation error
+
+	//class conversion---------------------------------------------------------
+		//Upcasting
+		//down casting
+		//static_cast,dynamic_cast,re_interpret_cast
+	//class conversion--override-------------------------------------------------------
+
+	//Independent class---------------------------------------------------------
+
+
+
+	return 0;
+}
+#if 0
+Explain Below Deep
+Implicit conversion-Built in data type.
+					-automatic
+					-for stoping auto matic conversion ,use explicit key word
+Explict conversion-()
+Conversion using constructor
+conversion using function:
+					-class object easily get converted to normal type
+					-int a= obj;
+#endif

@@ -1,0 +1,64 @@
+/*
+ * p1stl_map.cpp
+
+
+ *
+ *  Created on: 11-Oct-2017
+ *      Author: ee205237
+ */
+#include<iostream>
+#include<map>
+using namespace std;
+int main(int argc,char** argv)
+{
+
+	map<const string ,int> mapispair[2];
+	pair< map <const string,int>::iterator,bool> returnVal;
+	mapispair[0].insert(pair<string,int>("udham",4));
+	mapispair[0].insert(pair<string,int>("Sanjay",5));
+	mapispair[0].insert(pair<string,int>("avneesh",6));
+	mapispair[0].insert(pair<string,int>("nirala",7));
+	mapispair[0].insert(pair<string,int>("nayan",8));
+	mapispair[0].insert(pair<string,int>("udham",4));
+	mapispair[0].insert(pair<string,int>("udham",4));
+#if 0
+	returnVal= mapispair[0].insert(pair<string,int>("udham",4));
+
+	map<const string ,int>::iterator itr1;
+	for(itr1=mapispair[0]->begin();itr1!= mapispair[0]->end();itr1++)
+	{
+		cout<<itr1->first <<"  "<<itr1->second<<"  "<<endl;
+
+		//cout<<"pair" <<itr1->pair();
+		//cout<<"pair" <<itr1->first_type <<"second type"<<itr1->second_type;
+	}
+#endif
+	return 0;
+}
+
+/*
+ *
+ *
+ *
+ *
+ * //map exaxample:
+	map<int ,string> mymap;
+	mymap.insert( pair<int,string>(1,"name1"));
+	mymap.insert(pair<int,string>(3,"Name2"));
+
+	pair<map<int,string>::iterator,bool> retn;
+	retn = mymap.insert(pair<int,string>(3,"s"));
+	if(retn.second == false)
+	{
+
+	}
+	map<int,string>::iterator itr1;
+	for(itr1 = mymap.begin();itr1!= mymap.end();itr1++)
+	{
+		cout<<"First Data"<<itr1->first<<" "<<itr1->second<<endl;
+		cout<<"First Data::"<<itr1->first <<" Second ::" << itr1->second <<endl;
+	}
+ */
+
+
+

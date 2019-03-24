@@ -1,0 +1,16 @@
+/*
+ * StlMap.cpp
+ *
+ *  Created on: 28-Sep-2017
+ *      Author: ee205237
+ */
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	retrun 1;
+}
+
+
+

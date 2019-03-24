@@ -1,0 +1,86 @@
+#if 0
+-prototype design pattern
+-When Should  use
+-can we use copy constructor  for prototyp
+-When object creation is costly ,to much time
+-Cretion ,Composion,and presentation
+-Cretion of object and its state are same.
+-
+-Eg.Chase game example
+--------------------------------------------
+client
+registry
+prototyp
+---------------------------------
+I can take the example of factory design pattern,And escape the creating objects each time,
+store creatd object at reposity,while factory creation.When ever use need ,provide the interface
+	=to get clone object
+	=Copy constructor object.
+		=Deep copy
+		=Shallow copy
+------------------------------------------------------------------------------------
+What is the use to provide a function body for pure virtual functions, if they are not going get
+called at all?
+-------------------------------------------------------------------------------------------------
+#endif
+#include<iostream>
+using namespace std;
+
+class Shape
+{
+	int lenth;;
+public:
+	virtual void draw()= 0;
+};
+
+void Shape::draw()
+{
+	cout<<"Base class constructor called";
+}
+
+class square: public Shape
+{
+public:
+	virtual void draw()
+	{
+		cout<<"Square"<<endl;
+	}
+
+};
+class Circle: public Shape
+{
+public:
+	virtual void draw()
+	{
+		cout<<"circle"<<endl;
+	}
+};
+
+class Rectangle: public Shape
+{
+public:
+	virtual void draw()
+	{
+		cout<<"circle"<<endl;
+	}
+};
+//---------------------------------------
+
+class clientDrawing
+{
+	Shape *ptr:
+public:
+	void::drawImage()
+	{
+		cout<<"client class"
+	}
+};
+
+//------------------------------------
+int main(int argc,char ** argv)
+{
+	cout<<"protype Method"<<endl;
+	return  0;
+}
+
+

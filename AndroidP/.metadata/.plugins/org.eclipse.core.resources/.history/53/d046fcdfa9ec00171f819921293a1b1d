@@ -1,0 +1,20 @@
+#include<iostream>
+class shape
+{
+public:
+	shape(){cout<<"shape:Base"<<endl;}
+};
+
+class circle: public shape
+{
+public:
+	circle();
+}
+
+int main()
+{
+
+}
+
+
+

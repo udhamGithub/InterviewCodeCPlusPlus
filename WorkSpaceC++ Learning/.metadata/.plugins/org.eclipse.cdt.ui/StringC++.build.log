@@ -1,0 +1,6 @@
+19:08:04 **** Incremental Build of configuration Debug for project StringC++ ****
+make all 
+make: Nothing to be done for `all'.
+
+19:08:04 Build Finished (took 68ms)
+

@@ -1,0 +1,45 @@
+/*
+ * p1stl_map.cpp
+
+
+ *
+ *  Created on: 11-Oct-2017
+ *      Author: ee205237
+ */
+#include<iostream>
+#include<map>
+using namespace std;
+int main(int argc,char** argv)
+{
+
+	map<int ,string> mymap;
+
+
+}
+
+/*
+ *
+ *
+ *
+ *
+ * //map exaxample:
+	map<int ,string> mymap;
+	mymap.insert( pair<int,string>(1,"name1"));
+	mymap.insert(pair<int,string>(3,"Name2"));
+
+	pair<map<int,string>::iterator,bool> retn;
+	retn = mymap.insert(pair<int,string>(3,"s"));
+	if(retn.second == false)
+	{
+
+	}
+	map<int,string>::iterator itr1;
+	for(itr1 = mymap.begin();itr1!= mymap.end();itr1++)
+	{
+		cout<<"First Data"<<itr1->first<<" "<<itr1->second<<endl;
+		cout<<"First Data::"<<itr1->first <<" Second ::" << itr1->second <<endl;
+	}
+ */
+
+
+

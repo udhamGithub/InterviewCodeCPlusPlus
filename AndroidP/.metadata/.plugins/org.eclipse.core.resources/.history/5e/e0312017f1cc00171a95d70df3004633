@@ -1,0 +1,57 @@
+/*
+ * classTemplate.cpp
+ *
+ *  Created on: 19-Nov-2017
+ *      Author: udham
+ */
+
+
+
+
+#include<iostream>
+using namespace std;
+
+class ArrayClass
+{
+	int *ptr;
+	int size;
+public:
+	ArrayClass(int xArray[],int  vsize)
+	{
+		ptr= new int[vsize];
+		size=vsize;
+
+		for(int i=0;i<vsize;i++)
+		{
+			ptr[i]=	xArray[i];
+		}
+		cout<<"Aconstructyre";
+	}
+	void print()
+	{
+		for(int i=0;i<size;i++)
+		{
+			cout<< ptr[i];
+		}
+
+	}
+};
+int main()
+{
+	int ptr=NULL;
+	int A[]={1,2,3,4,5};
+	ArrayClass  obj(A,5);
+	obj.print();
+
+	A=A+1;
+	//&A=&A+1;
+   //&A+1; // invalid conversion from ‘int (*)[5]’ to ‘int’
+
+	//&A->both address are same but type is diffrent :means,& A++ error
+	//A-->A++-->error
+	//---------------------------
+	//but A=A+1;
+	//    &A=&A+1;
+
+
+}

@@ -1,0 +1,38 @@
+/*
+ * exception.cpp
+ *
+ *  Created on: 13-Nov-2017
+ *      Author: ee205237
+ */
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b;
+	int x;
+
+	int i=10;
+	try
+	{
+		if(1)
+		{
+			result =a/b;
+			if()
+			throw x;
+		}
+	}
+	catch(int x)
+	{
+		cout<<"DevideByZero";
+	}
+
+}
+
+//diffrent case:
+	//-
+	//-
+	//-
+
+
+
+

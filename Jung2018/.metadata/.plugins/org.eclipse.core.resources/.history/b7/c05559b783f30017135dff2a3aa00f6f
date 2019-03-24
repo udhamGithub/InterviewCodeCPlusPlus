@@ -1,0 +1,7 @@
+#if 0
+Write a program  to reverse a  string  using recursion
+		--Iterartion
+			-Time complexity-o(n)
+			-Space complexity-o(n/2)
+	    --recursion
+#endif

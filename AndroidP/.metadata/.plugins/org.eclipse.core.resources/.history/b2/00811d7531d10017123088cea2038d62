@@ -1,0 +1,36 @@
+#include <iostream>
+#include <cstdlib>
+#include <pthread.h>
+#include <unistd.h>
+using namespace std;
+
+
+typedef struct t_data
+{
+	int a;
+	char *ptr;
+}t_data;
+
+
+void *PrintHello(void *threadid)
+{
+	t_data  *mydata;
+	mydata = (t_data*)threadid;
+
+  // while(1)
+   {
+	   cout << "\nHello World! Thread ID,= " << mydata->a << endl;
+	   cout << "\n Messsage is :,= " << mydata->ptr << endl;
+	  // sleep(1);
+   }
+   pthread_exit(NULL);
+}
+
+int main ()
+{
+   pthread_t threads[NUM_THREADS];
+    while(1)
+   {
+   }
+   pthread_exit(NULL);
+}

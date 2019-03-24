@@ -1,0 +1,32 @@
+/*
+ * joining_thread.cpp
+
+ *
+ *  Created on: 15-Nov-2017
+ *      Author: udham
+ */
+
+#if 0
+The pthread_join() subroutine blocks the calling thread until the
+specified threadid thread terminates. When a thread is created,
+one of its attributes defines whether it is joinable or detached.
+Only threads that are created as joinable can be joined.
+If a thread is created as detached, it can never be joined.
+#endif
+
+
+#include<iostream>
+#include<pthread.h>
+//#include<cstdlib>
+using namespace std;
+int main()
+{
+	int rc;
+
+	pthread_t  thread[5];
+	pthread_attr_t tatr;
+
+
+
+
+}

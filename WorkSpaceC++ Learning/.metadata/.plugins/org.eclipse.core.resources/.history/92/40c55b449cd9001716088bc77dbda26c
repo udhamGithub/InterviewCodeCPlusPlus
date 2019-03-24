@@ -1,0 +1,33 @@
+
+#include<iostream>
+using namespace std;
+
+class A
+{
+public:
+	void add(int x)
+	{
+		cout<<"class A";
+	}
+
+};
+class B
+{
+public:
+	void add(int x)
+	{
+			cout<<"class A";
+	}
+};
+class I: class A ,class B
+{
+	public:
+	cout<<"show data";
+};
+
+
+int main()
+{
+
+	return 0;
+}

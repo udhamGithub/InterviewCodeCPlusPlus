@@ -1,0 +1,39 @@
+/*
+ * SemaPhoreCreateMutex.cpp
+
+
+ *
+ *  Created on: 24-Nov-2017
+ *      Author: udham
+ */
+
+#include<iostream>
+#include<pthread.h>
+using namespace std;
+
+void * Thread_1(void*)
+{
+	while(1)
+	{
+		cout<<"Common resource :Printer  use by Thread1";
+	}
+}
+void Thread_2()
+{
+	cout<<"Common resource :Printer  use by Thread2";
+}
+
+int main()
+{
+	pthread_t pid1;
+	pthread_t pid2;
+	pthread_create(&pid1,NULL,Thread_1,NULL);
+	pthread_create(&pid2,NULL,Thread_1,NULL);
+	pthread_join(pid1,NULL);
+	pthread_join(pid1,NULL);
+
+}
+
+
+
+

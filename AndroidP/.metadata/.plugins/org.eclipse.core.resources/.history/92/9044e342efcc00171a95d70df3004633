@@ -1,0 +1,33 @@
+/*
+ * classTemplate.cpp
+ *
+ *  Created on: 19-Nov-2017
+ *      Author: udham
+ */
+
+
+
+
+#include<iostream>
+using namespace std;
+
+class ArrayClass
+{
+	int *ptr;
+	int size;
+public:
+	ArrayClass(int [], size)
+	{
+		ptr=NULL;
+		size=0;
+		cout<<"Aconstructyre";
+	}
+
+};
+int main()
+{
+	int A[]={1,2,3,4,5};
+	ArrayClass  obj(a,5);
+
+
+}

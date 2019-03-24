@@ -1,0 +1,19 @@
+#include<iostream>
+class shape
+{
+public:
+};
+
+class circle: public shape
+{
+public:
+	circle();
+}
+
+int main()
+{
+
+}
+
+
+

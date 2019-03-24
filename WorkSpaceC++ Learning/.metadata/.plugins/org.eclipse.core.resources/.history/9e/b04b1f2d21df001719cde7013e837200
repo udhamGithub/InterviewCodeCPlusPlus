@@ -1,0 +1,61 @@
+#include<iostream>
+using namespace std;
+#if 0
+-what is constant cast
+-cstyle cast v/s c++ cast
+	reinterpret_cast,dynamic_cast,static cast,constant_cast
+#endif
+
+
+
+class Base
+{
+
+};
+int main()
+{
+	cout<<"My main Program:"<<endl;
+	unsigned char chardata=10; //1 Byte
+	//1.--Simple c style cast----
+	//int *ptr=&data;     //compilation Error
+	int *ptr=(int*)&chardata; //pointer is 4 byte integer
+		//casting sucessfull but it is dangerous and it can cause segmentaion fault.
+		//User has to aware what  he is  doing
+	*ptr = 100;
+	cout<< "data:---"<<chardata;
+	//*ptr = 100;
+    //Static cast------------------------------------------------------------
+	int intdata=20;
+	//int *ptr2= static_cast<int*>&data;
+			//error as not same type ,Save user to dangerous situation,
+			//Now he need to be carefull about ,his conversion
+	//So it  allow only type-safe conversion
+	int *ptr3= static_cast<int*>(&intdata);
+	//Re_interpretCast---------------------------------------------------------
+	int *ptr2= reinterpret_cast<int*>(&chardata);//no compilsation Issue
+	*ptr2=12;									 //Work Same As  normal c-casting,for diffretent type conversion
+												 //So this is dangerous as c-style
+
+
+
+
+
+	//successfull as same type,But not usefull,
+											//It is usefull when class and inerited class
+
+
+
+	return 0;
+}
+
+#if 0
+Explain Below Deeply
+Implicit conversion-Built in data type.
+					-automatic
+					-for stoping auto matic conversion ,use explicit key word
+Explict conversion-()
+Conversion using constructor
+conversion using function:
+					-class object easily get converted to normal type
+					-int a= obj;
+#endif

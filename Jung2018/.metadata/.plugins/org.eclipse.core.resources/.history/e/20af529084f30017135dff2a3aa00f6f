@@ -1,0 +1,16 @@
+#if 0
+Write a program  to reverse a  string  using recursion
+		[a]--Iterartion(by using two index start and end and swaping each)
+			-Time complexity-o(n)-swaping operation n/2
+			-Space complexity-constant
+	    [b]--recursion:(function calling itself)
+	    	-implicit recusrsiom(stack used by system)
+	    	-explicit recusrsion(used own define stack)
+					-push
+				    -pop
+				    -top
+-----------------------------------------------------------------
+-example of recursion
+       -factorial of a number
+       -
+#endif

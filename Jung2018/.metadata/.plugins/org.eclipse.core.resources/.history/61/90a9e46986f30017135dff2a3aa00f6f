@@ -1,0 +1,34 @@
+#if 0
+1.Write a program  to reverse a  string  using recursion
+2.Write a program to revrse printing of linklist data
+3.Write a program to bubble sort using linnk list
+		[a]--Iterartion(by using two index start and end and swaping each)
+			-Time complexity-o(n)-swaping operation n/2
+			-Space complexity-constant
+	    [b]--recursion:(function calling itself)
+	    	-implicit recusrsiom(stack used by system)
+	    	-explicit recusrsion(used own define stack or use standerd template method)
+					-push
+				    -pop
+				    -top
+-----------------------------------------------------------------
+-example of recursion
+       -factorial of a number
+       -
+#endif
+#include<iostream>
+using namespace std;
+class Cstring
+{
+	char *pstring;
+public:
+	Cstring()
+	{
+		cout<<"Constructure called";
+	}
+};
+
+int main()
+{
+
+}

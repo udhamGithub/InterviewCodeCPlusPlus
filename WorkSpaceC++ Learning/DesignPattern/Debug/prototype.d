@@ -1,0 +1,1 @@
+prototype.d: ../prototype.cpp

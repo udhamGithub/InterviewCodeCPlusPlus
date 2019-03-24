@@ -1,0 +1,26 @@
+/*
+ * exception.cpp
+ *
+ *  Created on: 13-Nov-2017
+ *      Author: ee205237
+ */
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a=1,b=0;
+	int x;
+	int result;
+	int i=10;
+
+	result=sum();
+}
+
+//diffrent case:
+	//-
+	//-
+	//-
+
+
+
+

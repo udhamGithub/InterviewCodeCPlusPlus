@@ -1,0 +1,26 @@
+
+
+
+#include<iostream>
+using namespace std;
+
+class A
+{
+public:
+  int static _getdata()
+  {
+	  return 9;
+  }
+
+  int static  getdata();
+  {
+     return _getdat();
+  }
+};
+
+
+int main()
+{
+
+	return 0;
+}

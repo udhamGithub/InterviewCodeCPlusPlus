@@ -1,0 +1,46 @@
+/*
+ * ArryPointer.cpp
+ *
+ *  Created on: 14-Nov-2017
+ *      Author: ee205237
+ */
+#include<iostream>
+using namespace std;
+
+#if 0
+	-Lavlaue , variable which have  valid adress and can store the vlaue can be l value
+#endif
+int main()
+{
+	int array[]={3,5,6,7,9};
+	//----Pointer increment-
+	//array++;                //error: lvalue required as increment operand  what is lvalue
+	//&array++;               //Array pointer is constanst, so lvalue are variable
+	//--aritmatic operation----------
+	array+1;
+	&array+1;
+	cout<<"\n array adress=%p" << array;
+	cout<<"\n &array adress=%p" << &array;
+	//
+	int *p=array;
+	int (*ptr)[5]=&array;
+	cout<<"p = %u"<<p;
+	cout<<"ptr= %u"<<ptr;
+}
+#if 0
+//Write a program for two Dimentional array
+//WAP for  Dyanamically allocated memory for 2darray,
+//https://www.geeksforgeeks.org/pointer-array-array-pointer/
+			//Using Pointer to An array
+			1.Pointer to an Array
+					int Array[10]={10,0,0,0,0}
+					int *ptr1= Array;
+					ptr1++;
+					ptr1-pointing to zeroth element of array
+			2.pointer that can point to whole array instead of only one element of the array
+					int (*ptr)[10]
+					           ptr=&Array; //pointer pointing to whole pointer
+							   ptr=ptr++;
+			3.Array of pointer
+					int *ptr[10];
+#endif

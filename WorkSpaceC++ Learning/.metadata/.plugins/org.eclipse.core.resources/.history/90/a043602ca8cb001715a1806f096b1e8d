@@ -1,0 +1,53 @@
+/*
+ * frindfunction.cpp
+ *
+ *  Created on: 17-Nov-2017
+ *      Author: ee205237
+ */
+#include<iostream>
+using namespace std;
+
+class y
+{
+	int salary;
+	char * name;
+public:
+	y()
+	{
+
+	}
+};
+
+class AB
+{
+	int salary;
+
+public:
+	AB(int i=0)
+	{
+		salary= i;
+	}
+	int incometax(AB salary);
+};
+
+int incometax(AB data)
+{
+	int tax=(data.salary)/100);
+	return tax;
+}
+
+int main()
+{
+	AB obj1(10000) ,obj2(10000);
+
+	incometax(obj1);
+
+	AB obj3;
+	//obj3=obj1+obj2;
+
+	//	Y yobj;
+	return 0;
+}
+
+
+

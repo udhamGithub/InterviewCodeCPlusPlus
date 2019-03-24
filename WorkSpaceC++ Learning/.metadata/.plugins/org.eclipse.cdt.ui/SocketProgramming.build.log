@@ -1,0 +1,13 @@
+12:44:36 **** Incremental Build of configuration Debug for project SocketProgramming ****
+make all 
+Building file: ../clinet.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"clinet.d" -MT"clinet.d" -o "clinet.o" "../clinet.cpp"
+../clinet.cpp: In function ‘int main()’:
+../clinet.cpp:20:21: error: aggregate ‘main()::sockadd_in address’ has incomplete type and cannot be defined
+  struct  sockadd_in address;
+                     ^
+make: *** [clinet.o] Error 1
+
+12:44:36 Build Finished (took 60ms)
+

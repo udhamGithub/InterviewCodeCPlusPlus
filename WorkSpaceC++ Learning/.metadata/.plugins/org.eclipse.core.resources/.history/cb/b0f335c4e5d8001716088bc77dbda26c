@@ -1,0 +1,20 @@
+
+
+
+#include<iostream>
+using namespace std;
+
+class A
+{
+public:
+  int static  getdata();
+  {
+
+
+  }
+};
+int main()
+{
+
+	return 0;
+}

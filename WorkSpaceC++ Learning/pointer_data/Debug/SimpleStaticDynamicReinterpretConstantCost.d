@@ -1,0 +1,2 @@
+SimpleStaticDynamicReinterpretConstantCost.d: \
+ ../SimpleStaticDynamicReinterpretConstantCost.cpp

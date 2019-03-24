@@ -1,0 +1,650 @@
+15:33:48 **** Incremental Build of configuration Debug for project StringC++ ****
+make all 
+Building file: ../Basic1StringOperation.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Basic1StringOperation.d" -MT"Basic1StringOperation.d" -o "Basic1StringOperation.o" "../Basic1StringOperation.cpp"
+Finished building: ../Basic1StringOperation.cpp
+ 
+Building target: StringC++
+Invoking: Cross G++ Linker
+g++  -o "StringC++"  ./Basic1StringOperation.o   
+Finished building target: StringC++
+ 
+15:34:02 **** Incremental Build of configuration Debug for project StringC++ ****
+make all 
+make: Nothing to be done for `all'.
+15:39:53 **** Incremental Build of configuration Debug for project Array ****
+make all 
+make: Nothing to be done for `all'.
+15:39:53 **** Incremental Build of configuration Debug for project BitWise ****
+make all 
+make: Nothing to be done for `all'.
+15:39:53 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project Exception ****
+
+Nothing to build for project Exception
+15:39:53 **** Incremental Build of configuration Debug for project Inheritance ****
+make all 
+make: Nothing to be done for `all'.
+15:39:53 **** Incremental Build of configuration Debug for project LinkList ****
+make all 
+make: Nothing to be done for `all'.
+15:39:53 **** Incremental Build of configuration Debug for project Multitreading ****
+make all 
+Building file: ../mutex.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"mutex.d" -MT"mutex.d" -o "mutex.o" "../mutex.cpp"
+../mutex.cpp:27:28: warning: missing terminating ' character [enabled by default]
+ Modified question is - What's the difference between A mutex and a "binary" semaphore in "Linux"?
+                            ^
+../mutex.cpp:25:1: error: expected unqualified-id before ‘==’ token
+ ===========================================================================================
+ ^
+make: *** [mutex.o] Error 1
+15:39:53 **** Incremental Build of configuration Debug for project OperatorOverloading ****
+make all 
+Building file: ../frindfunction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"frindfunction.d" -MT"frindfunction.d" -o "frindfunction.o" "../frindfunction.cpp"
+../frindfunction.cpp:33:2: error: expected unqualified-id before ‘{’ token
+  {
+  ^
+make: *** [frindfunction.o] Error 1
+15:39:54 **** Incremental Build of configuration Debug for project STL ****
+make all 
+make: Nothing to be done for `all'.
+15:39:54 **** Incremental Build of configuration Debug for project SocketC ****
+make all 
+make: Nothing to be done for `all'.
+15:39:54 **** Incremental Build of configuration Debug for project StringC++ ****
+make all 
+Building file: ../Basic1StringOperation.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Basic1StringOperation.d" -MT"Basic1StringOperation.d" -o "Basic1StringOperation.o" "../Basic1StringOperation.cpp"
+Finished building: ../Basic1StringOperation.cpp
+ 
+Building target: StringC++
+Invoking: Cross G++ Linker
+g++  -o "StringC++"  ./Basic1StringOperation.o   
+Finished building target: StringC++
+ 
+15:39:54 **** Incremental Build of configuration Debug for project pointer_data ****
+make all 
+make: Nothing to be done for `all'.
+15:39:58 **** Incremental Build of configuration Debug for project StringC++ ****
+make all 
+make: Nothing to be done for `all'.
+15:40:16 **** Incremental Build of configuration Debug for project Array ****
+make all 
+make: Nothing to be done for `all'.
+15:40:16 **** Incremental Build of configuration Debug for project BitWise ****
+make all 
+make: Nothing to be done for `all'.
+15:40:16 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project Exception ****
+
+Nothing to build for project Exception
+15:40:16 **** Incremental Build of configuration Debug for project Inheritance ****
+make all 
+make: Nothing to be done for `all'.
+15:40:17 **** Incremental Build of configuration Debug for project LinkList ****
+make all 
+make: Nothing to be done for `all'.
+15:40:17 **** Incremental Build of configuration Debug for project Multitreading ****
+make all 
+Building file: ../mutex.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"mutex.d" -MT"mutex.d" -o "mutex.o" "../mutex.cpp"
+../mutex.cpp:27:28: warning: missing terminating ' character [enabled by default]
+ Modified question is - What's the difference between A mutex and a "binary" semaphore in "Linux"?
+                            ^
+../mutex.cpp:25:1: error: expected unqualified-id before ‘==’ token
+ ===========================================================================================
+ ^
+make: *** [mutex.o] Error 1
+15:40:17 **** Incremental Build of configuration Debug for project OperatorOverloading ****
+make all 
+Building file: ../frindfunction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"frindfunction.d" -MT"frindfunction.d" -o "frindfunction.o" "../frindfunction.cpp"
+../frindfunction.cpp:33:2: error: expected unqualified-id before ‘{’ token
+  {
+  ^
+make: *** [frindfunction.o] Error 1
+15:40:17 **** Incremental Build of configuration Debug for project STL ****
+make all 
+make: Nothing to be done for `all'.
+15:40:17 **** Incremental Build of configuration Debug for project SocketC ****
+make all 
+make: Nothing to be done for `all'.
+15:40:17 **** Incremental Build of configuration Debug for project StringC++ ****
+make all 
+Building file: ../Basic1StringOperation.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Basic1StringOperation.d" -MT"Basic1StringOperation.d" -o "Basic1StringOperation.o" "../Basic1StringOperation.cpp"
+Finished building: ../Basic1StringOperation.cpp
+ 
+Building target: StringC++
+Invoking: Cross G++ Linker
+g++  -o "StringC++"  ./Basic1StringOperation.o   
+Finished building target: StringC++
+ 
+15:40:18 **** Incremental Build of configuration Debug for project pointer_data ****
+make all 
+make: Nothing to be done for `all'.
+15:40:22 **** Incremental Build of configuration Debug for project StringC++ ****
+make all 
+make: Nothing to be done for `all'.
+15:57:17 **** Incremental Build of configuration Debug for project Array ****
+make all 
+make: Nothing to be done for `all'.
+15:57:17 **** Incremental Build of configuration Debug for project BitWise ****
+make all 
+make: Nothing to be done for `all'.
+15:57:17 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project Exception ****
+
+Nothing to build for project Exception
+15:57:17 **** Incremental Build of configuration Debug for project Inheritance ****
+make all 
+make: Nothing to be done for `all'.
+15:57:18 **** Incremental Build of configuration Debug for project LinkList ****
+make all 
+make: Nothing to be done for `all'.
+15:57:18 **** Incremental Build of configuration Debug for project Multitreading ****
+make all 
+Building file: ../mutex.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"mutex.d" -MT"mutex.d" -o "mutex.o" "../mutex.cpp"
+../mutex.cpp:27:28: warning: missing terminating ' character [enabled by default]
+ Modified question is - What's the difference between A mutex and a "binary" semaphore in "Linux"?
+                            ^
+../mutex.cpp:25:1: error: expected unqualified-id before ‘==’ token
+ ===========================================================================================
+ ^
+make: *** [mutex.o] Error 1
+15:57:18 **** Incremental Build of configuration Debug for project OperatorOverloading ****
+make all 
+Building file: ../frindfunction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"frindfunction.d" -MT"frindfunction.d" -o "frindfunction.o" "../frindfunction.cpp"
+../frindfunction.cpp:33:2: error: expected unqualified-id before ‘{’ token
+  {
+  ^
+make: *** [frindfunction.o] Error 1
+15:57:18 **** Incremental Build of configuration Debug for project STL ****
+make all 
+make: Nothing to be done for `all'.
+15:57:18 **** Incremental Build of configuration Debug for project SocketC ****
+make all 
+make: Nothing to be done for `all'.
+15:57:18 **** Incremental Build of configuration Debug for project StringC++ ****
+make all 
+Building file: ../Basic1StringOperation.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Basic1StringOperation.d" -MT"Basic1StringOperation.d" -o "Basic1StringOperation.o" "../Basic1StringOperation.cpp"
+../Basic1StringOperation.cpp: In function ‘int main()’:
+../Basic1StringOperation.cpp:54:13: error: no matching function for call to ‘std::basic_istream<char>::get(std::string&)’
+  cin.get(obj);
+             ^
+../Basic1StringOperation.cpp:54:13: note: candidates are:
+In file included from /usr/include/c++/4.8/iostream:40:0,
+                 from ../Basic1StringOperation.cpp:46:
+/usr/include/c++/4.8/istream:302:7: note: std::basic_istream<_CharT, _Traits>::int_type std::basic_istream<_CharT, _Traits>::get() [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::int_type = int]
+       get();
+       ^
+/usr/include/c++/4.8/istream:302:7: note:   candidate expects 0 arguments, 1 provided
+/usr/include/c++/4.8/istream:316:7: note: std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::get(std::basic_istream<_CharT, _Traits>::char_type&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::char_type = char]
+       get(char_type& __c);
+       ^
+/usr/include/c++/4.8/istream:316:7: note:   no known conversion for argument 1 from ‘std::string {aka std::basic_string<char>}’ to ‘std::basic_istream<char>::char_type& {aka char&}’
+/usr/include/c++/4.8/istream:343:7: note: std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::get(std::basic_istream<_CharT, _Traits>::char_type*, std::streamsize, std::basic_istream<_CharT, _Traits>::char_type) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::char_type = char; std::streamsize = long int]
+       get(char_type* __s, streamsize __n, char_type __delim);
+       ^
+/usr/include/c++/4.8/istream:343:7: note:   candidate expects 3 arguments, 1 provided
+/usr/include/c++/4.8/istream:354:7: note: std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::get(std::basic_istream<_CharT, _Traits>::char_type*, std::streamsize) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>; std::basic_istream<_CharT, _Traits>::char_type = char; std::streamsize = long int]
+       get(char_type* __s, streamsize __n)
+       ^
+/usr/include/c++/4.8/istream:354:7: note:   candidate expects 2 arguments, 1 provided
+/usr/include/c++/4.8/istream:377:7: note: std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::get(std::basic_istream<_CharT, _Traits>::__streambuf_type&, std::basic_istream<_CharT, _Traits>::char_type) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>; std::basic_istream<_CharT, _Traits>::char_type = char]
+       get(__streambuf_type& __sb, char_type __delim);
+       ^
+/usr/include/c++/4.8/istream:377:7: note:   candidate expects 2 arguments, 1 provided
+/usr/include/c++/4.8/istream:387:7: note: std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::get(std::basic_istream<_CharT, _Traits>::__streambuf_type&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>; std::basic_istream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+       get(__streambuf_type& __sb)
+       ^
+/usr/include/c++/4.8/istream:387:7: note:   no known conversion for argument 1 from ‘std::string {aka std::basic_string<char>}’ to ‘std::basic_istream<char>::__streambuf_type& {aka std::basic_streambuf<char>&}’
+make: *** [Basic1StringOperation.o] Error 1
+15:57:19 **** Incremental Build of configuration Debug for project pointer_data ****
+make all 
+make: Nothing to be done for `all'.
+15:59:28 **** Incremental Build of configuration Debug for project Array ****
+make all 
+make: Nothing to be done for `all'.
+15:59:28 **** Incremental Build of configuration Debug for project BitWise ****
+make all 
+make: Nothing to be done for `all'.
+15:59:28 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project Exception ****
+
+Nothing to build for project Exception
+15:59:28 **** Incremental Build of configuration Debug for project Inheritance ****
+make all 
+make: Nothing to be done for `all'.
+15:59:28 **** Incremental Build of configuration Debug for project LinkList ****
+make all 
+make: Nothing to be done for `all'.
+15:59:29 **** Incremental Build of configuration Debug for project Multitreading ****
+make all 
+Building file: ../mutex.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"mutex.d" -MT"mutex.d" -o "mutex.o" "../mutex.cpp"
+../mutex.cpp:27:28: warning: missing terminating ' character [enabled by default]
+ Modified question is - What's the difference between A mutex and a "binary" semaphore in "Linux"?
+                            ^
+../mutex.cpp:25:1: error: expected unqualified-id before ‘==’ token
+ ===========================================================================================
+ ^
+make: *** [mutex.o] Error 1
+15:59:29 **** Incremental Build of configuration Debug for project OperatorOverloading ****
+make all 
+Building file: ../frindfunction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"frindfunction.d" -MT"frindfunction.d" -o "frindfunction.o" "../frindfunction.cpp"
+../frindfunction.cpp:33:2: error: expected unqualified-id before ‘{’ token
+  {
+  ^
+make: *** [frindfunction.o] Error 1
+15:59:29 **** Incremental Build of configuration Debug for project STL ****
+make all 
+make: Nothing to be done for `all'.
+15:59:29 **** Incremental Build of configuration Debug for project SocketC ****
+make all 
+make: Nothing to be done for `all'.
+15:59:29 **** Incremental Build of configuration Debug for project StringC++ ****
+make all 
+Building file: ../Basic1StringOperation.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Basic1StringOperation.d" -MT"Basic1StringOperation.d" -o "Basic1StringOperation.o" "../Basic1StringOperation.cpp"
+../Basic1StringOperation.cpp: In function ‘int main()’:
+../Basic1StringOperation.cpp:55:14: error: no matching function for call to ‘std::basic_istream<char>::get(char [10])’
+  cin.get(data);
+              ^
+../Basic1StringOperation.cpp:55:14: note: candidates are:
+In file included from /usr/include/c++/4.8/iostream:40:0,
+                 from ../Basic1StringOperation.cpp:46:
+/usr/include/c++/4.8/istream:302:7: note: std::basic_istream<_CharT, _Traits>::int_type std::basic_istream<_CharT, _Traits>::get() [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::int_type = int]
+       get();
+       ^
+/usr/include/c++/4.8/istream:302:7: note:   candidate expects 0 arguments, 1 provided
+/usr/include/c++/4.8/istream:316:7: note: std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::get(std::basic_istream<_CharT, _Traits>::char_type&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::char_type = char]
+       get(char_type& __c);
+       ^
+/usr/include/c++/4.8/istream:316:7: note:   no known conversion for argument 1 from ‘char [10]’ to ‘std::basic_istream<char>::char_type& {aka char&}’
+/usr/include/c++/4.8/istream:343:7: note: std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::get(std::basic_istream<_CharT, _Traits>::char_type*, std::streamsize, std::basic_istream<_CharT, _Traits>::char_type) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::char_type = char; std::streamsize = long int]
+       get(char_type* __s, streamsize __n, char_type __delim);
+       ^
+/usr/include/c++/4.8/istream:343:7: note:   candidate expects 3 arguments, 1 provided
+/usr/include/c++/4.8/istream:354:7: note: std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::get(std::basic_istream<_CharT, _Traits>::char_type*, std::streamsize) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>; std::basic_istream<_CharT, _Traits>::char_type = char; std::streamsize = long int]
+       get(char_type* __s, streamsize __n)
+       ^
+/usr/include/c++/4.8/istream:354:7: note:   candidate expects 2 arguments, 1 provided
+/usr/include/c++/4.8/istream:377:7: note: std::basic_istream<_CharT, _Traits>& std::basic_istream<_CharT, _Traits>::get(std::basic_istream<_CharT, _Traits>::__streambuf_type&, std::basic_istream<_CharT, _Traits>::char_type) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>; std::basic_istream<_CharT, _Traits>::char_type = char]
+       get(__streambuf_type& __sb, char_type __delim);
+       ^
+/usr/include/c++/4.8/istream:377:7: note:   candidate expects 2 arguments, 1 provided
+/usr/include/c++/4.8/istream:387:7: note: std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::get(std::basic_istream<_CharT, _Traits>::__streambuf_type&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>; std::basic_istream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+       get(__streambuf_type& __sb)
+       ^
+/usr/include/c++/4.8/istream:387:7: note:   no known conversion for argument 1 from ‘char [10]’ to ‘std::basic_istream<char>::__streambuf_type& {aka std::basic_streambuf<char>&}’
+make: *** [Basic1StringOperation.o] Error 1
+15:59:30 **** Incremental Build of configuration Debug for project pointer_data ****
+make all 
+make: Nothing to be done for `all'.
+15:59:40 **** Incremental Build of configuration Debug for project Array ****
+make all 
+make: Nothing to be done for `all'.
+15:59:40 **** Incremental Build of configuration Debug for project BitWise ****
+make all 
+make: Nothing to be done for `all'.
+15:59:40 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project Exception ****
+
+Nothing to build for project Exception
+15:59:40 **** Incremental Build of configuration Debug for project Inheritance ****
+make all 
+make: Nothing to be done for `all'.
+15:59:41 **** Incremental Build of configuration Debug for project LinkList ****
+make all 
+make: Nothing to be done for `all'.
+15:59:41 **** Incremental Build of configuration Debug for project Multitreading ****
+make all 
+Building file: ../mutex.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"mutex.d" -MT"mutex.d" -o "mutex.o" "../mutex.cpp"
+../mutex.cpp:27:28: warning: missing terminating ' character [enabled by default]
+ Modified question is - What's the difference between A mutex and a "binary" semaphore in "Linux"?
+                            ^
+../mutex.cpp:25:1: error: expected unqualified-id before ‘==’ token
+ ===========================================================================================
+ ^
+make: *** [mutex.o] Error 1
+15:59:41 **** Incremental Build of configuration Debug for project OperatorOverloading ****
+make all 
+Building file: ../frindfunction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"frindfunction.d" -MT"frindfunction.d" -o "frindfunction.o" "../frindfunction.cpp"
+../frindfunction.cpp:33:2: error: expected unqualified-id before ‘{’ token
+  {
+  ^
+make: *** [frindfunction.o] Error 1
+15:59:41 **** Incremental Build of configuration Debug for project STL ****
+make all 
+make: Nothing to be done for `all'.
+15:59:41 **** Incremental Build of configuration Debug for project SocketC ****
+make all 
+make: Nothing to be done for `all'.
+15:59:41 **** Incremental Build of configuration Debug for project StringC++ ****
+make all 
+Building file: ../Basic1StringOperation.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Basic1StringOperation.d" -MT"Basic1StringOperation.d" -o "Basic1StringOperation.o" "../Basic1StringOperation.cpp"
+Finished building: ../Basic1StringOperation.cpp
+ 
+Building target: StringC++
+Invoking: Cross G++ Linker
+g++  -o "StringC++"  ./Basic1StringOperation.o   
+Finished building target: StringC++
+ 
+15:59:42 **** Incremental Build of configuration Debug for project pointer_data ****
+make all 
+make: Nothing to be done for `all'.
+15:59:50 **** Incremental Build of configuration Debug for project Array ****
+make all 
+make: Nothing to be done for `all'.
+15:59:50 **** Incremental Build of configuration Debug for project BitWise ****
+make all 
+make: Nothing to be done for `all'.
+15:59:50 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project Exception ****
+
+Nothing to build for project Exception
+15:59:51 **** Incremental Build of configuration Debug for project Inheritance ****
+make all 
+make: Nothing to be done for `all'.
+15:59:51 **** Incremental Build of configuration Debug for project LinkList ****
+make all 
+make: Nothing to be done for `all'.
+15:59:51 **** Incremental Build of configuration Debug for project Multitreading ****
+make all 
+Building file: ../mutex.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"mutex.d" -MT"mutex.d" -o "mutex.o" "../mutex.cpp"
+../mutex.cpp:27:28: warning: missing terminating ' character [enabled by default]
+ Modified question is - What's the difference between A mutex and a "binary" semaphore in "Linux"?
+                            ^
+../mutex.cpp:25:1: error: expected unqualified-id before ‘==’ token
+ ===========================================================================================
+ ^
+make: *** [mutex.o] Error 1
+15:59:51 **** Incremental Build of configuration Debug for project OperatorOverloading ****
+make all 
+Building file: ../frindfunction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"frindfunction.d" -MT"frindfunction.d" -o "frindfunction.o" "../frindfunction.cpp"
+../frindfunction.cpp:33:2: error: expected unqualified-id before ‘{’ token
+  {
+  ^
+make: *** [frindfunction.o] Error 1
+15:59:51 **** Incremental Build of configuration Debug for project STL ****
+make all 
+make: Nothing to be done for `all'.
+15:59:52 **** Incremental Build of configuration Debug for project SocketC ****
+make all 
+make: Nothing to be done for `all'.
+15:59:52 **** Incremental Build of configuration Debug for project StringC++ ****
+make all 
+Building file: ../Basic1StringOperation.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Basic1StringOperation.d" -MT"Basic1StringOperation.d" -o "Basic1StringOperation.o" "../Basic1StringOperation.cpp"
+Finished building: ../Basic1StringOperation.cpp
+ 
+Building target: StringC++
+Invoking: Cross G++ Linker
+g++  -o "StringC++"  ./Basic1StringOperation.o   
+Finished building target: StringC++
+ 
+15:59:52 **** Incremental Build of configuration Debug for project pointer_data ****
+make all 
+make: Nothing to be done for `all'.
+15:59:55 **** Incremental Build of configuration Debug for project StringC++ ****
+make all 
+make: Nothing to be done for `all'.
+19:01:40 **** Incremental Build of configuration Debug for project Array ****
+make all 
+make: Nothing to be done for `all'.
+19:01:40 **** Incremental Build of configuration Debug for project BitWise ****
+make all 
+make: Nothing to be done for `all'.
+19:01:41 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project Exception ****
+
+Nothing to build for project Exception
+19:01:41 **** Incremental Build of configuration Debug for project Inheritance ****
+make all 
+make: Nothing to be done for `all'.
+19:01:41 **** Incremental Build of configuration Debug for project LinkList ****
+make all 
+make: Nothing to be done for `all'.
+19:01:41 **** Incremental Build of configuration Debug for project Multitreading ****
+make all 
+Building file: ../mutex.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"mutex.d" -MT"mutex.d" -o "mutex.o" "../mutex.cpp"
+../mutex.cpp:27:28: warning: missing terminating ' character [enabled by default]
+ Modified question is - What's the difference between A mutex and a "binary" semaphore in "Linux"?
+                            ^
+../mutex.cpp:25:1: error: expected unqualified-id before ‘==’ token
+ ===========================================================================================
+ ^
+make: *** [mutex.o] Error 1
+19:01:41 **** Incremental Build of configuration Debug for project OperatorOverloading ****
+make all 
+Building file: ../frindfunction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"frindfunction.d" -MT"frindfunction.d" -o "frindfunction.o" "../frindfunction.cpp"
+../frindfunction.cpp:33:2: error: expected unqualified-id before ‘{’ token
+  {
+  ^
+make: *** [frindfunction.o] Error 1
+19:01:42 **** Incremental Build of configuration Debug for project STL ****
+make all 
+make: Nothing to be done for `all'.
+19:01:42 **** Incremental Build of configuration Debug for project SocketC ****
+make all 
+make: Nothing to be done for `all'.
+19:01:42 **** Incremental Build of configuration Debug for project StringC++ ****
+make all 
+Building file: ../Basic1StringOperation.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Basic1StringOperation.d" -MT"Basic1StringOperation.d" -o "Basic1StringOperation.o" "../Basic1StringOperation.cpp"
+Finished building: ../Basic1StringOperation.cpp
+ 
+Building target: StringC++
+Invoking: Cross G++ Linker
+g++  -o "StringC++"  ./Basic1StringOperation.o   
+Finished building target: StringC++
+ 
+19:01:42 **** Incremental Build of configuration Debug for project pointer_data ****
+make all 
+make: Nothing to be done for `all'.
+19:01:51 **** Incremental Build of configuration Debug for project StringC++ ****
+make all 
+make: Nothing to be done for `all'.
+19:03:46 **** Incremental Build of configuration Debug for project Array ****
+make all 
+make: Nothing to be done for `all'.
+19:03:46 **** Incremental Build of configuration Debug for project BitWise ****
+make all 
+make: Nothing to be done for `all'.
+19:03:46 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project Exception ****
+
+Nothing to build for project Exception
+19:03:46 **** Incremental Build of configuration Debug for project Inheritance ****
+make all 
+make: Nothing to be done for `all'.
+19:03:46 **** Incremental Build of configuration Debug for project LinkList ****
+make all 
+make: Nothing to be done for `all'.
+19:03:47 **** Incremental Build of configuration Debug for project Multitreading ****
+make all 
+Building file: ../mutex.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"mutex.d" -MT"mutex.d" -o "mutex.o" "../mutex.cpp"
+../mutex.cpp:27:28: warning: missing terminating ' character [enabled by default]
+ Modified question is - What's the difference between A mutex and a "binary" semaphore in "Linux"?
+                            ^
+../mutex.cpp:25:1: error: expected unqualified-id before ‘==’ token
+ ===========================================================================================
+ ^
+make: *** [mutex.o] Error 1
+19:03:47 **** Incremental Build of configuration Debug for project OperatorOverloading ****
+make all 
+Building file: ../frindfunction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"frindfunction.d" -MT"frindfunction.d" -o "frindfunction.o" "../frindfunction.cpp"
+../frindfunction.cpp:33:2: error: expected unqualified-id before ‘{’ token
+  {
+  ^
+make: *** [frindfunction.o] Error 1
+19:03:47 **** Incremental Build of configuration Debug for project STL ****
+make all 
+make: Nothing to be done for `all'.
+19:03:47 **** Incremental Build of configuration Debug for project SocketC ****
+make all 
+make: Nothing to be done for `all'.
+19:03:47 **** Incremental Build of configuration Debug for project StringC++ ****
+make all 
+Building file: ../Basic1StringOperation.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Basic1StringOperation.d" -MT"Basic1StringOperation.d" -o "Basic1StringOperation.o" "../Basic1StringOperation.cpp"
+Finished building: ../Basic1StringOperation.cpp
+ 
+Building target: StringC++
+Invoking: Cross G++ Linker
+g++  -o "StringC++"  ./Basic1StringOperation.o   
+Finished building target: StringC++
+ 
+19:03:48 **** Incremental Build of configuration Debug for project pointer_data ****
+make all 
+make: Nothing to be done for `all'.
+19:03:51 **** Incremental Build of configuration Debug for project StringC++ ****
+make all 
+make: Nothing to be done for `all'.
+19:06:24 **** Incremental Build of configuration Debug for project Array ****
+make all 
+make: Nothing to be done for `all'.
+19:06:24 **** Incremental Build of configuration Debug for project BitWise ****
+make all 
+make: Nothing to be done for `all'.
+19:06:24 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+
+**** Build of configuration Debug for project Exception ****
+
+Nothing to build for project Exception
+19:06:25 **** Incremental Build of configuration Debug for project Inheritance ****
+make all 
+make: Nothing to be done for `all'.
+19:06:25 **** Incremental Build of configuration Debug for project LinkList ****
+make all 
+make: Nothing to be done for `all'.
+19:06:25 **** Incremental Build of configuration Debug for project Multitreading ****
+make all 
+Building file: ../mutex.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"mutex.d" -MT"mutex.d" -o "mutex.o" "../mutex.cpp"
+../mutex.cpp:27:28: warning: missing terminating ' character [enabled by default]
+ Modified question is - What's the difference between A mutex and a "binary" semaphore in "Linux"?
+                            ^
+../mutex.cpp:25:1: error: expected unqualified-id before ‘==’ token
+ ===========================================================================================
+ ^
+make: *** [mutex.o] Error 1
+19:06:25 **** Incremental Build of configuration Debug for project OperatorOverloading ****
+make all 
+Building file: ../frindfunction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"frindfunction.d" -MT"frindfunction.d" -o "frindfunction.o" "../frindfunction.cpp"
+../frindfunction.cpp:33:2: error: expected unqualified-id before ‘{’ token
+  {
+  ^
+make: *** [frindfunction.o] Error 1
+19:06:25 **** Incremental Build of configuration Debug for project STL ****
+make all 
+make: Nothing to be done for `all'.
+19:06:25 **** Incremental Build of configuration Debug for project SocketC ****
+make all 
+make: Nothing to be done for `all'.
+19:06:26 **** Incremental Build of configuration Debug for project StringC++ ****
+make all 
+Building file: ../Basic1StringOperation.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Basic1StringOperation.d" -MT"Basic1StringOperation.d" -o "Basic1StringOperation.o" "../Basic1StringOperation.cpp"
+Finished building: ../Basic1StringOperation.cpp
+ 
+Building target: StringC++
+Invoking: Cross G++ Linker
+g++  -o "StringC++"  ./Basic1StringOperation.o   
+Finished building target: StringC++
+ 
+19:06:26 **** Incremental Build of configuration Debug for project pointer_data ****
+make all 
+make: Nothing to be done for `all'.
+19:06:29 **** Incremental Build of configuration Debug for project StringC++ ****
+make all 
+make: Nothing to be done for `all'.
+19:06:50 **** Incremental Build of configuration Debug for project StringC++ ****
+make all 
+make: Nothing to be done for `all'.
+19:07:32 **** Incremental Build of configuration Debug for project StringC++ ****
+make all 
+Building file: ../Basic1StringOperation.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Basic1StringOperation.d" -MT"Basic1StringOperation.d" -o "Basic1StringOperation.o" "../Basic1StringOperation.cpp"
+Finished building: ../Basic1StringOperation.cpp
+ 
+Building target: StringC++
+Invoking: Cross G++ Linker
+g++  -o "StringC++"  ./Basic1StringOperation.o   
+Finished building target: StringC++
+ 
+19:08:04 **** Incremental Build of configuration Debug for project StringC++ ****
+make all 
+make: Nothing to be done for `all'.

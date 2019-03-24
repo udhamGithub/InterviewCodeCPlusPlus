@@ -1,0 +1,12 @@
+19:06:25 **** Incremental Build of configuration Debug for project OperatorOverloading ****
+make all 
+Building file: ../frindfunction.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"frindfunction.d" -MT"frindfunction.d" -o "frindfunction.o" "../frindfunction.cpp"
+../frindfunction.cpp:33:2: error: expected unqualified-id before ‘{’ token
+  {
+  ^
+make: *** [frindfunction.o] Error 1
+
+19:06:25 Build Finished (took 167ms)
+

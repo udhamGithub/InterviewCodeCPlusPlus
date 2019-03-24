@@ -1,0 +1,51 @@
+#include<iostream>
+using namespace std;
+class shape
+{
+public:
+	shape(){cout<<"shape:Base"<<endl;}
+};
+
+class circle: public shape
+{
+public:
+	circle(){cout<<"circle constructure"<<endl;}
+};
+
+
+class rectangle: public shape
+{
+public:
+	rectangle(){cout<<rectangle""<<endl;}
+};
+
+// Factory is from  library==================================
+enum shapetype
+{
+	CIRCLE,
+	RECTANGLE,
+	SQUARE,
+};
+shape & getObjectFromFactory(shapetype ishapetype)
+{
+	if(ishapetype ==  CIRCLE )
+	{
+
+	}
+	else if(ishapetype ==  RECTANGLE )
+
+	else if(ishapetype ==  SQUARE )
+
+	else
+
+}
+//
+
+int main()
+{
+
+
+}
+
+
+

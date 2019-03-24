@@ -1,0 +1,2 @@
+/*Target is client should completely decoupled with Base class and
+ * concrete classes derived from base class-----------------------*/

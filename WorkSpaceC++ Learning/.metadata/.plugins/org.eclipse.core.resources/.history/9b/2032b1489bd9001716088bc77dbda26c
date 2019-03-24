@@ -1,0 +1,25 @@
+
+#include<iostream>
+using namespace std;
+
+class A
+{
+public:
+
+};
+class B
+{
+
+};
+
+class I
+{
+
+}
+
+
+int main()
+{
+    A::_getdata();
+	return 0;
+}

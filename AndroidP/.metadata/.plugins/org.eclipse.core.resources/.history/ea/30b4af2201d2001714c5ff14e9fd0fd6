@@ -1,0 +1,35 @@
+/*
+ * mutexVsSemaphor.cpp
+ *
+ *  Created on: 20-Nov-2017
+ *      Author: udham
+ */
+#include<iostream>
+#include<pthread.h>
+using namespace std;
+void *thread_1(void *)
+{
+	//critical resource
+	//
+}
+void *thread_2(void *)
+{
+	//crtical resource
+}
+
+int main()
+{
+	pthread_t pid1;
+	pthread_t pid2;
+	pthread_create(&pid1,NULL,thread_1, NULL);
+
+	pthread_create(&pid2,NULL,thread_2, NULL);
+	//pthread_create();
+
+	cout<<"My First Program";
+	return 0;
+}
+
+
+
+

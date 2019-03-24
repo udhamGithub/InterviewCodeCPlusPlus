@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+
+
+class Base
+{
+
+};
+int main()
+{
+	cout<<"My main Program:"<<endl;
+	unsigned char data=10; //1 Byte
+	//1.--Simple c style cast----
+	//int *ptr=&data;     //compilation Error
+	int *ptr=(int*)&data; //pointer is 4 byte integer
+		//casting sucessfull but it is dangerous and it can cause segmentaion fault.
+		//User has to aware what  he is  doing
+	*ptr = 100;
+	cout<< "data:---"<<data;
+	//*ptr = 100;
+    //---------------------------------------------------------------
+	int intdata=20;
+	//int *ptr2= static_cast<int*>&data;    //error as
+	int *ptr2= static_cast<int*>(&intdata); //successfull as same type,But not usefull,
+											//It is usefull when class and inerited class
+
+	return 0;
+}

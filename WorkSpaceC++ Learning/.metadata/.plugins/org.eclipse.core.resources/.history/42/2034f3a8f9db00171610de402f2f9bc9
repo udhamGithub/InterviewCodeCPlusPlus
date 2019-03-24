@@ -1,0 +1,49 @@
+#if 0
+-prototype design pattern
+-When Should  use
+-can we use copy constructor  for prototyp
+-When object creation is costly ,to much time
+-Cretion ,Composion,and presentation
+-Cretion of object and its state are same.
+-
+-Eg.Chase game example
+--------------------------------------------
+client
+registry
+prototyp
+---------------------------------
+I can take the example of factory design pattern,And escape the creating objects each time,
+store creatd object at reposity,while factory creation.When ever use need ,provide the interface
+	=to get clone object
+	=Copy constructor object.
+		=Deep copy
+		=Shallow copy
+
+#endif
+class Shape
+{
+	int lrnth;;
+public:
+	void draw()
+	{
+		cout<<"Base Shpe";
+	}
+};
+
+class square: public Shape
+{
+public:
+
+};
+class
+
+
+#include<iostream>
+using namespace std;
+int main(int argc,char ** argv)
+{
+	cout<<"protype Method"<<endl;
+	return  0;
+}
+
+

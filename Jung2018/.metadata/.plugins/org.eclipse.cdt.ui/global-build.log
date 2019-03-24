@@ -1,0 +1,183 @@
+15:35:18 **** Incremental Build of configuration Debug for project DataStructurec++ ****
+make all 
+Building file: ../recursion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"recursion.d" -MT"recursion.d" -o "recursion.o" "../recursion.cpp"
+Finished building: ../recursion.cpp
+ 
+Building target: DataStructurec++
+Invoking: Cross G++ Linker
+g++  -o "DataStructurec++"  ./recursion.o   
+Finished building target: DataStructurec++
+ 
+15:35:42 **** Incremental Build of configuration Debug for project DataStructurec++ ****
+make all 
+Building file: ../recursion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"recursion.d" -MT"recursion.d" -o "recursion.o" "../recursion.cpp"
+Finished building: ../recursion.cpp
+ 
+Building target: DataStructurec++
+Invoking: Cross G++ Linker
+g++  -o "DataStructurec++"  ./recursion.o   
+Finished building target: DataStructurec++
+ 
+15:35:46 **** Incremental Build of configuration Debug for project DataStructurec++ ****
+make all 
+make: Nothing to be done for `all'.
+15:36:11 **** Incremental Build of configuration Debug for project DataStructurec++ ****
+make all 
+Building file: ../recursion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"recursion.d" -MT"recursion.d" -o "recursion.o" "../recursion.cpp"
+../recursion.cpp: In member function ‘void Cstring::reverse_recursionExplicit()’:
+../recursion.cpp:61:19: warning: ‘takedata’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    cout<< takedata;
+                   ^
+Finished building: ../recursion.cpp
+ 
+Building target: DataStructurec++
+Invoking: Cross G++ Linker
+g++  -o "DataStructurec++"  ./recursion.o   
+Finished building target: DataStructurec++
+ 
+15:36:16 **** Incremental Build of configuration Debug for project DataStructurec++ ****
+make all 
+make: Nothing to be done for `all'.
+15:37:01 **** Incremental Build of configuration Debug for project DataStructurec++ ****
+make all 
+Building file: ../recursion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"recursion.d" -MT"recursion.d" -o "recursion.o" "../recursion.cpp"
+../recursion.cpp: In member function ‘void Cstring::reverse_recursionExplicit()’:
+../recursion.cpp:61:19: warning: ‘takedata’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    cout<< takedata;
+                   ^
+Finished building: ../recursion.cpp
+ 
+Building target: DataStructurec++
+Invoking: Cross G++ Linker
+g++  -o "DataStructurec++"  ./recursion.o   
+Finished building target: DataStructurec++
+ 
+15:37:52 **** Incremental Build of configuration Debug for project DataStructurec++ ****
+make all 
+Building file: ../recursion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"recursion.d" -MT"recursion.d" -o "recursion.o" "../recursion.cpp"
+../recursion.cpp: In member function ‘void Cstring::reverse_recursionExplicit()’:
+../recursion.cpp:61:19: warning: ‘takedata’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    cout<< takedata;
+                   ^
+Finished building: ../recursion.cpp
+ 
+Building target: DataStructurec++
+Invoking: Cross G++ Linker
+g++  -o "DataStructurec++"  ./recursion.o   
+Finished building target: DataStructurec++
+ 
+15:37:56 **** Incremental Build of configuration Debug for project DataStructurec++ ****
+make all 
+make: Nothing to be done for `all'.
+15:38:26 **** Incremental Build of configuration Debug for project DataStructurec++ ****
+make all 
+Building file: ../recursion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"recursion.d" -MT"recursion.d" -o "recursion.o" "../recursion.cpp"
+../recursion.cpp: In member function ‘void Cstring::reverse_recursionExplicit()’:
+../recursion.cpp:52:9: warning: unused variable ‘takedata’ [-Wunused-variable]
+   char *takedata;
+         ^
+Finished building: ../recursion.cpp
+ 
+Building target: DataStructurec++
+Invoking: Cross G++ Linker
+g++  -o "DataStructurec++"  ./recursion.o   
+Finished building target: DataStructurec++
+ 
+15:38:29 **** Incremental Build of configuration Debug for project DataStructurec++ ****
+make all 
+make: Nothing to be done for `all'.
+15:39:07 **** Incremental Build of configuration Debug for project DataStructurec++ ****
+make all 
+Building file: ../recursion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"recursion.d" -MT"recursion.d" -o "recursion.o" "../recursion.cpp"
+../recursion.cpp: In member function ‘void Cstring::reverse_recursionExplicit()’:
+../recursion.cpp:52:9: warning: unused variable ‘takedata’ [-Wunused-variable]
+   char *takedata;
+         ^
+Finished building: ../recursion.cpp
+ 
+Building target: DataStructurec++
+Invoking: Cross G++ Linker
+g++  -o "DataStructurec++"  ./recursion.o   
+Finished building target: DataStructurec++
+ 
+15:39:24 **** Incremental Build of configuration Debug for project DataStructurec++ ****
+make all 
+Building file: ../recursion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"recursion.d" -MT"recursion.d" -o "recursion.o" "../recursion.cpp"
+../recursion.cpp: In member function ‘void Cstring::reverse_recursionExplicit()’:
+../recursion.cpp:52:9: warning: unused variable ‘takedata’ [-Wunused-variable]
+   char *takedata;
+         ^
+Finished building: ../recursion.cpp
+ 
+Building target: DataStructurec++
+Invoking: Cross G++ Linker
+g++  -o "DataStructurec++"  ./recursion.o   
+Finished building target: DataStructurec++
+ 
+15:39:27 **** Incremental Build of configuration Debug for project DataStructurec++ ****
+make all 
+make: Nothing to be done for `all'.
+15:40:54 **** Incremental Build of configuration Debug for project DataStructurec++ ****
+make all 
+Building file: ../recursion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"recursion.d" -MT"recursion.d" -o "recursion.o" "../recursion.cpp"
+../recursion.cpp: In member function ‘void Cstring::reverse_recursionExplicit()’:
+../recursion.cpp:52:9: warning: unused variable ‘takedata’ [-Wunused-variable]
+   char *takedata;
+         ^
+Finished building: ../recursion.cpp
+ 
+Building target: DataStructurec++
+Invoking: Cross G++ Linker
+g++  -o "DataStructurec++"  ./recursion.o   
+Finished building target: DataStructurec++
+ 
+15:40:59 **** Incremental Build of configuration Debug for project DataStructurec++ ****
+make all 
+make: Nothing to be done for `all'.
+16:04:19 **** Incremental Build of configuration Debug for project DataStructurec++ ****
+make all 
+Building file: ../recursion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"recursion.d" -MT"recursion.d" -o "recursion.o" "../recursion.cpp"
+../recursion.cpp:32:22: error: ISO C++ forbids declaration of ‘l_recusrsionimplict’ with no type [-fpermissive]
+  l_recusrsionimplict();
+                      ^
+../recursion.cpp: In member function ‘void Cstring::reverse_recursionExplicit()’:
+../recursion.cpp:53:9: warning: unused variable ‘takedata’ [-Wunused-variable]
+   char *takedata;
+         ^
+make: *** [recursion.o] Error 1
+16:04:50 **** Incremental Build of configuration Debug for project DataStructurec++ ****
+make all 
+Building file: ../recursion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"recursion.d" -MT"recursion.d" -o "recursion.o" "../recursion.cpp"
+../recursion.cpp: In member function ‘void Cstring::reverse_recursionExplicit()’:
+../recursion.cpp:53:9: warning: unused variable ‘takedata’ [-Wunused-variable]
+   char *takedata;
+         ^
+Finished building: ../recursion.cpp
+ 
+Building target: DataStructurec++
+Invoking: Cross G++ Linker
+g++  -o "DataStructurec++"  ./recursion.o   
+Finished building target: DataStructurec++
+ 

@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+
+
+class Base
+{
+
+};
+int main()
+{
+	cout<<"My main Program:"<<endl;
+
+char data=10;
+//Simple c style cast----
+int *ptr=&data;
+	//casting successfull
+	//but it is dangerous
+	//
+
+
+
+
+
+}

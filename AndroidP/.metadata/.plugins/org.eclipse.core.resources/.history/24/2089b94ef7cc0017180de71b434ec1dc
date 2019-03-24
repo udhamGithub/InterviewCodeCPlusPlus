@@ -1,0 +1,62 @@
+/*
+ * classArray.cpp
+ *
+ *  Created on: 19-Nov-2017
+ *      Author: udham
+ */
+/*
+ * classTemplate.cpp
+ *
+ *  Created on: 19-Nov-2017
+ *      Author: udham
+ */
+#include<iostream>
+using namespace std;
+
+template <typename T>
+class ArrayClass
+{
+	T *ptr;
+	int size;
+public:
+	ArrayClass(T xArray[],int vsize)
+	{
+		ptr = new T[vsize]; //size in array new must have integaral type
+		size=vsize;
+
+		for(int i=0;i<vsize;i++)
+		{
+			ptr[i]=	xArray[i];
+		}
+		cout<<"Aconstructyre";
+	}
+	void print()
+	{
+		for(int i=0;i<size;i++)
+		{
+			cout<<"  "<< ptr[i];
+		}
+
+	}
+};
+int main()
+{
+	int A[]={1,2,3,4,5};
+	ArrayClass<int>obj(A,5);  //missing template arguments before ‘obj’
+	obj.print();
+
+	float B[]={9.9,8.80,7.6,6.0,5.99};
+
+	ArrayClass<float>obj2(B,5);
+	obj2.print();
+
+    //char C[10]={'a','b','c','d','e','f','\0'};
+    char C[10]="udham sin";
+    ArrayClass<char>obj3(C,10);
+    obj3.print();
+
+
+
+}
+//overloading extraction operator
+//lekage --different pointer

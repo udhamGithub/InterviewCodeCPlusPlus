@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;STL/add_.cpp&apos; to &apos;FunctionTemplate.cpp&apos;" description="Rename resource &apos;add_.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="add_.cpp" name="FunctionTemplate.cpp" stamp="1512040408729" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;STL/classTemplate.cpp&apos; to &apos;2-0classTemplate.cpp&apos;" description="Rename resource &apos;classTemplate.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="classTemplate.cpp" name="2-0classTemplate.cpp" stamp="1512040546675" updateReferences="true"/>
+</session>

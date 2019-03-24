@@ -1,0 +1,40 @@
+#include<iostream>
+using namespace std;
+#if 0
+-what is constant cast
+-cstyle cast v/s c++ cast
+	reinterpret_cast,dynamic_cast,static cast,constant_cast
+#endif
+
+
+
+class Base
+{
+
+};
+int main()
+{
+	cout<<"My main Program:"<<endl;
+	unsigned char data=10; //1 Byte
+	//1.--Simple c style cast----
+	//int *ptr=&data;     //compilation Error
+	int *ptr=(int*)&data; //pointer is 4 byte integer
+		//casting sucessfull but it is dangerous and it can cause segmentaion fault.
+		//User has to aware what  he is  doing
+	*ptr = 100;
+	cout<< "data:---"<<data;
+	//*ptr = 100;
+    //Static cast------------------------------------------------------------
+	int intdata=20;
+	//int *ptr2= static_cast<int*>&data;    //error as not same type ,Save user to dangerous situation,
+											//Now he need to be carefull about ,his conversion
+	int *ptr2= static_cast<int*>(&intdata); //successfull as same type,But not usefull,
+											//It is usefull when class and inerited class
+
+	return 0;
+}
+
+#if 0
+Conversion using constructor
+conversion using function
+#endif

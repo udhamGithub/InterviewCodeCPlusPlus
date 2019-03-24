@@ -1,0 +1,83 @@
+#include<iostream>
+using namespace std;
+class shape
+{
+public:
+	//shape(){cout<<"shape:Base constructure"<<endl;}
+	virtual void draw(void)
+	{
+		{cout<<"shape::draw"<<endl;}
+	}
+};
+#if 0
+void shape::draw()
+{
+  {cout<<"shape::draw"<<endl;}
+}
+#endif
+class circle: public shape
+{
+public:
+	//circle(){cout<<"circle constructure"<<endl;}
+	virtual void draw(void)
+	{cout<<"circle::draw"<<endl;}
+};
+
+
+class rectangle: public shape
+{
+public:
+	rectangle()
+	//{cout<<"rectangle constructor"<<endl;}
+	virtual void draw(void)
+	{ 	cout<<"rectangle:: draw"<<endl; }
+};
+class square : public shape
+{
+
+};
+
+// Factory is from  library==================================
+enum shapetype
+{
+	CIRCLE,
+	RECTANGLE,
+	SQUARE,
+};
+
+shape * getObjectFromFactory(shapetype ishapetype)
+{
+	shape *basePtr = NULL; //once goes out of scope basPter get deleted
+	if(ishapetype ==  CIRCLE )
+	{
+		basePtr= new circle;
+	}
+	else if(ishapetype ==  RECTANGLE )
+	{
+		basePtr = new rectangle;
+	}
+	else if(ishapetype ==  SQUARE )
+	{
+		//basePtr = new square;
+	}
+	else
+	{
+		cout<<"Object is not in  Factory"<<endl;
+	}
+	return basePtr;
+}
+
+int main()
+{
+	//client code
+	//draw circle
+	shape *ptr1 = getObjectFromFactory(CIRCLE);
+	ptr1->draw();
+
+	shape *ptr2 = getObjectFromFactory(RECTANGLE);
+	ptr2->draw();
+	return 0;
+};
+
+
+

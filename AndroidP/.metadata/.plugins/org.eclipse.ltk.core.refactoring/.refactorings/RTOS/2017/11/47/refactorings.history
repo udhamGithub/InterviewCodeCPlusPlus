@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;RTOS/mutexVsSemaphor.cpp&apos; to &apos;1.mutexVsSemaphor.cpp&apos;" description="Rename resource &apos;mutexVsSemaphor.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="mutexVsSemaphor.cpp" name="1.mutexVsSemaphor.cpp" stamp="1511635535316" updateReferences="true"/>
+</session>

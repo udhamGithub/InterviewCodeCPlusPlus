@@ -1,0 +1,67 @@
+/*
+ * Basic1StringOperation.cpp
+ *
+ *  Created on: 20-Feb-2018
+ *      Author: udham
+ */
+
+#if 0
+-C++ vs C
+-taking input
+-printing out put
+-copy
+-catenate
+-reverse
+-compare
+#endif
+
+//in mind Next
+#if 0
+-prototype
+-Unified modeling language--Moddeling of processing Object
+	-Object orinted software design(OOD) and OOPS
+	-Give view,project understanding,clear picture, creating artifacts for software devlopment
+	-Point
+		-Actor,Activity,
+		1-Creating use case diagaram(View)
+				-Take Greeter example who stand in Shop(He is not shop keeper) and greet the incomming  customer
+				-He Use to smile
+				-He use to ask for cart offer if customer say yes  he gives that else  no
+				-
+		2-Creting  Activity diagram-What cover?
+				-What does the activity of actor?
+				-
+		3-Creating  class view[]? what cover
+		                 -Classisfying object under process
+		                 	 -Boundary value class---Interacting to entity
+		                 	 -Entity Class--Object Used inside running business
+		                 	 -Control class--Intercation steps b/w entity classes and boundary  controling
+		4-Class Communication digram:
+					-
+		5-Class Design ,actually defining class and  member function
+		6.Sequence diagarm,flow alog time -Intercation of object
+
+#endif
+#include<iostream>
+#include<string>
+using namespace std;
+int main()
+{
+	string obj;
+	//1----taking input from user :after space in string it does not take character ,like scanf
+	cout<<"Enter String  for Input";
+	//cin>>obj;
+	cout<<obj;
+	//2---- static string-------------------------------------
+	string firstname="xyz";
+	string lastname="udham";
+	string fullname;
+	fullname=firstname + lastname;
+	cout<<fullname;
+	//3----
+
+	return 0;
+}
+
+
+

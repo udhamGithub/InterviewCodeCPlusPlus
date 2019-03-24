@@ -1,0 +1,17 @@
+#if 0
+	-All most Any TCP/UDP communication,use to happen through ,socket
+	-Socket used bu
+	-UML Digram of C++ Interface for TCP IP
+	-Server socket and client socket both dervide from socket class
+	-server socket can be inherited to ,webserver,Ecocaht,multiserver
+
+	https://www.geeksforgeeks.org/socket-programming-cc/
+#endif
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+  sockadd_in address;
+	return 0;
+}
+

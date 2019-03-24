@@ -1,0 +1,28 @@
+/*
+ * Basic1StringOperation.cpp
+ *
+ *  Created on: 20-Feb-2018
+ *      Author: udham
+ */
+
+#if 0
+-C++ vs C
+-taking input
+-printing out put
+-copy
+-catenate
+-reverse
+-compare
+#endif
+
+#include<iostream>
+using namespace std;
+
+
+int main()
+{
+
+}
+
+
+

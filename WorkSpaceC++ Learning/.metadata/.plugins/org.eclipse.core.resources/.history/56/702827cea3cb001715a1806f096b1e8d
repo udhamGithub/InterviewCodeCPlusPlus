@@ -1,0 +1,26 @@
+/*
+ * frindfunction.cpp
+ *
+ *  Created on: 17-Nov-2017
+ *      Author: ee205237
+ */
+#include<iostream>
+using namespace std;
+
+class AB
+{
+	int a;
+	int b;
+	AB()
+	{
+
+	}
+};
+int main()
+{
+
+	return 0;
+}
+
+
+

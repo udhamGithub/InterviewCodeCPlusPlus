@@ -1,0 +1,19 @@
+16:04:50 **** Incremental Build of configuration Debug for project DataStructurec++ ****
+make all 
+Building file: ../recursion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"recursion.d" -MT"recursion.d" -o "recursion.o" "../recursion.cpp"
+../recursion.cpp: In member function ‘void Cstring::reverse_recursionExplicit()’:
+../recursion.cpp:53:9: warning: unused variable ‘takedata’ [-Wunused-variable]
+   char *takedata;
+         ^
+Finished building: ../recursion.cpp
+ 
+Building target: DataStructurec++
+Invoking: Cross G++ Linker
+g++  -o "DataStructurec++"  ./recursion.o   
+Finished building target: DataStructurec++
+ 
+
+16:04:51 Build Finished (took 410ms)
+

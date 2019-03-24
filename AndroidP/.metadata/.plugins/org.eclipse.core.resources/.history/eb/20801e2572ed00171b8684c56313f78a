@@ -1,0 +1,109 @@
+/*Target is client should completely decoupled with Base class and
+ * concrete classes derived from base class-----------------------*/
+#include<iostream>
+#include <vector>
+using namespace std;
+
+/*Target is client should completely decoupled with Base class and
+ * concrete classes derived from base class-----------------------*/
+class shape
+{
+public:
+	//shape(){cout<<"shape:Base constructure"<<endl;}
+	virtual void draw(void)
+	{
+		{cout<<"shape::draw"<<endl;}
+	}
+	virtual ~shape(){cout<<"~SHAPE:Distructure"<<endl;}
+};
+
+class circle: public shape
+{
+public:
+	//circle(){cout<<"circle constructure"<<endl;}
+	virtual void draw(void)
+	{cout<<"circle::draw"<<endl;}
+	~circle(){cout<<"~circle:Distructure"<<endl;}
+};
+
+
+class rectangle: public shape
+{
+public:
+	//rectangle()
+	//{cout<<"rectangle constructor"<<endl;}
+	virtual void draw(void)
+	{ 	cout<<"rectangle:: draw"<<endl; }
+
+	~rectangle(){cout<<"~rectangle:Distructure"<<endl;}
+};
+class square: public shape
+{
+	virtual void draw(void)
+		{ 	cout<<"square:: draw"<<endl; }
+	~square(){cout<<"~square:Distructure"<<endl;}
+};
+
+// Factory is from  library==================================
+
+enum SHAPETYPE
+{	CIRCLE,		RECTANGLE,	SQUARE};
+
+class factory
+{
+
+public:
+    static shape * getObjectFromFactory(SHAPETYPE ishapetype);
+};
+
+static shape * factory:: getObjectFromFactory(SHAPETYPE ishapetype)
+{
+	shape *basePtr = NULL; //once goes out of scope basPter get deleted
+	if(ishapetype ==  CIRCLE )
+	{
+		basePtr= new circle;
+	}
+	else if(ishapetype ==  RECTANGLE )
+	{
+		basePtr = new rectangle;
+	}
+	else if(ishapetype ==  SQUARE )
+	{
+		basePtr = new square;
+	}
+	else
+	{
+		cout<<"Object is not in  Factory"<<endl;
+	}
+	return basePtr;
+}
+
+//=================================================================
+int main()
+{
+	//client code
+	//draw circle
+	vector<shape*> myobj;
+    myobj.push_back(getObjectFromFactory(CIRCLE));
+    myobj.push_back(getObjectFromFactory(RECTANGLE));
+	//ptr2 = getObjectFromFactory(SQUARE);
+	//ptr2->draw();
+    myobj.push_back(getObjectFromFactory(SQUARE));
+
+	for(int i=0;i< myobj.size();i++)
+	{
+			 myobj[i]->draw();
+	}
+	for(int i=0;i<myobj.size();i++)
+	{
+		 delete myobj[i];
+	}
+	return 0;
+};
+
+
+
+
+
+
+

@@ -1,0 +1,828 @@
+18:39:08 **** Clean-only build of configuration Debug for project DesignPattern ****
+make clean 
+rm -rf  ./CloneImplementaion.o ./FactoryMethodWithCloneAobject.o  ./CloneImplementaion.d ./FactoryMethodWithCloneAobject.d  DesignPattern
+ 
+18:39:08 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+Finished building: ../CloneImplementaion.cpp
+ 
+Building target: DesignPattern
+Invoking: Cross G++ Linker
+g++  -o "DesignPattern"  ./CloneImplementaion.o   
+Finished building target: DesignPattern
+ 
+18:39:12 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+18:39:55 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+Finished building: ../CloneImplementaion.cpp
+ 
+Building target: DesignPattern
+Invoking: Cross G++ Linker
+g++  -o "DesignPattern"  ./CloneImplementaion.o   
+Finished building target: DesignPattern
+ 
+18:39:56 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+18:40:00 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+18:41:04 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+18:41:04 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+18:41:15 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+Finished building: ../CloneImplementaion.cpp
+ 
+Building target: DesignPattern
+Invoking: Cross G++ Linker
+g++  -o "DesignPattern"  ./CloneImplementaion.o   
+Finished building target: DesignPattern
+ 
+18:45:14 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+../CloneImplementaion.cpp: In function ‘shape* getObjectFromFactory(shapetype)’:
+../CloneImplementaion.cpp:64:27: error: no matching function for call to ‘std::vector<shape>::push_back(circle*)’
+   obj.push_back(new circle);
+                           ^
+../CloneImplementaion.cpp:64:27: note: candidate is:
+In file included from /usr/include/c++/4.8/vector:64:0,
+                 from ../CloneImplementaion.cpp:8:
+/usr/include/c++/4.8/bits/stl_vector.h:901:7: note: void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = shape; _Alloc = std::allocator<shape>; std::vector<_Tp, _Alloc>::value_type = shape]
+       push_back(const value_type& __x)
+       ^
+/usr/include/c++/4.8/bits/stl_vector.h:901:7: note:   no known conversion for argument 1 from ‘circle*’ to ‘const value_type& {aka const shape&}’
+make: *** [CloneImplementaion.o] Error 1
+18:45:15 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+18:46:02 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+../CloneImplementaion.cpp: In function ‘shape* getObjectFromFactory(shapetype)’:
+../CloneImplementaion.cpp:64:35: error: no matching function for call to ‘std::vector<shape>::push_back(shape*)’
+   obj.push_back((shape*)new circle);
+                                   ^
+../CloneImplementaion.cpp:64:35: note: candidate is:
+In file included from /usr/include/c++/4.8/vector:64:0,
+                 from ../CloneImplementaion.cpp:8:
+/usr/include/c++/4.8/bits/stl_vector.h:901:7: note: void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = shape; _Alloc = std::allocator<shape>; std::vector<_Tp, _Alloc>::value_type = shape]
+       push_back(const value_type& __x)
+       ^
+/usr/include/c++/4.8/bits/stl_vector.h:901:7: note:   no known conversion for argument 1 from ‘shape*’ to ‘const value_type& {aka const shape&}’
+make: *** [CloneImplementaion.o] Error 1
+18:46:03 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+18:47:25 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+../CloneImplementaion.cpp: In function ‘shape* getObjectFromFactory(shapetype)’:
+../CloneImplementaion.cpp:63:46: error: invalid const_cast from type ‘circle*’ to type ‘shape*’
+   obj.push_back(const_cast<shape*>(new circle));
+                                              ^
+make: *** [CloneImplementaion.o] Error 1
+18:47:25 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+18:47:37 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+Finished building: ../CloneImplementaion.cpp
+ 
+Building target: DesignPattern
+Invoking: Cross G++ Linker
+g++  -o "DesignPattern"  ./CloneImplementaion.o   
+Finished building target: DesignPattern
+ 
+18:47:38 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+18:48:41 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+Finished building: ../CloneImplementaion.cpp
+ 
+Building target: DesignPattern
+Invoking: Cross G++ Linker
+g++  -o "DesignPattern"  ./CloneImplementaion.o   
+Finished building target: DesignPattern
+ 
+18:48:42 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+18:51:38 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+../CloneImplementaion.cpp: In function ‘int main()’:
+../CloneImplementaion.cpp:94:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<obj.size();i++)
+                         ^
+../CloneImplementaion.cpp:86:9: warning: unused variable ‘ptr1’ [-Wunused-variable]
+  shape *ptr1 = getObjectFromFactory(CIRCLE);
+         ^
+../CloneImplementaion.cpp:89:9: warning: variable ‘ptr2’ set but not used [-Wunused-but-set-variable]
+  shape *ptr2 = getObjectFromFactory(RECTANGLE);
+         ^
+Finished building: ../CloneImplementaion.cpp
+ 
+Building target: DesignPattern
+Invoking: Cross G++ Linker
+g++  -o "DesignPattern"  ./CloneImplementaion.o   
+Finished building target: DesignPattern
+ 
+18:53:12 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+../CloneImplementaion.cpp: In function ‘int main()’:
+../CloneImplementaion.cpp:94:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<obj.size();i++)
+                         ^
+../CloneImplementaion.cpp:98:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<obj.size();i++)
+                         ^
+../CloneImplementaion.cpp:100:15: warning: deleting object of polymorphic class type ‘shape’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+   delete obj[i];
+               ^
+../CloneImplementaion.cpp:86:9: warning: unused variable ‘ptr1’ [-Wunused-variable]
+  shape *ptr1 = getObjectFromFactory(CIRCLE);
+         ^
+../CloneImplementaion.cpp:89:9: warning: variable ‘ptr2’ set but not used [-Wunused-but-set-variable]
+  shape *ptr2 = getObjectFromFactory(RECTANGLE);
+         ^
+Finished building: ../CloneImplementaion.cpp
+ 
+Building target: DesignPattern
+Invoking: Cross G++ Linker
+g++  -o "DesignPattern"  ./CloneImplementaion.o   
+Finished building target: DesignPattern
+ 
+18:55:22 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+../CloneImplementaion.cpp:32:9: error: declaration of ‘~shape’ as member of ‘circle’
+  ~shape(){cout<<"~circle:Distructure";}
+         ^
+../CloneImplementaion.cpp: In function ‘int main()’:
+../CloneImplementaion.cpp:96:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<obj.size();i++)
+                         ^
+../CloneImplementaion.cpp:100:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<obj.size();i++)
+                         ^
+../CloneImplementaion.cpp:102:15: warning: deleting object of polymorphic class type ‘shape’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+   delete obj[i];
+               ^
+../CloneImplementaion.cpp:88:9: warning: unused variable ‘ptr1’ [-Wunused-variable]
+  shape *ptr1 = getObjectFromFactory(CIRCLE);
+         ^
+make: *** [CloneImplementaion.o] Error 1
+18:55:23 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+18:55:35 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+../CloneImplementaion.cpp: In function ‘int main()’:
+../CloneImplementaion.cpp:96:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<obj.size();i++)
+                         ^
+../CloneImplementaion.cpp:100:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<obj.size();i++)
+                         ^
+../CloneImplementaion.cpp:102:15: warning: deleting object of polymorphic class type ‘shape’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+   delete obj[i];
+               ^
+../CloneImplementaion.cpp:88:9: warning: unused variable ‘ptr1’ [-Wunused-variable]
+  shape *ptr1 = getObjectFromFactory(CIRCLE);
+         ^
+../CloneImplementaion.cpp:91:9: warning: variable ‘ptr2’ set but not used [-Wunused-but-set-variable]
+  shape *ptr2 = getObjectFromFactory(RECTANGLE);
+         ^
+Finished building: ../CloneImplementaion.cpp
+ 
+Building target: DesignPattern
+Invoking: Cross G++ Linker
+g++  -o "DesignPattern"  ./CloneImplementaion.o   
+Finished building target: DesignPattern
+ 
+18:55:35 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+18:56:35 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+../CloneImplementaion.cpp: In function ‘int main()’:
+../CloneImplementaion.cpp:99:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<obj.size();i++)
+                         ^
+../CloneImplementaion.cpp:103:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<obj.size();i++)
+                         ^
+../CloneImplementaion.cpp:105:15: warning: deleting object of polymorphic class type ‘shape’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+   delete obj[i];
+               ^
+../CloneImplementaion.cpp:91:9: warning: unused variable ‘ptr1’ [-Wunused-variable]
+  shape *ptr1 = getObjectFromFactory(CIRCLE);
+         ^
+../CloneImplementaion.cpp:94:9: warning: variable ‘ptr2’ set but not used [-Wunused-but-set-variable]
+  shape *ptr2 = getObjectFromFactory(RECTANGLE);
+         ^
+Finished building: ../CloneImplementaion.cpp
+ 
+Building target: DesignPattern
+Invoking: Cross G++ Linker
+g++  -o "DesignPattern"  ./CloneImplementaion.o   
+Finished building target: DesignPattern
+ 
+18:56:36 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+18:56:40 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+18:57:28 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+../CloneImplementaion.cpp: In function ‘int main()’:
+../CloneImplementaion.cpp:99:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<obj.size();i++)
+                         ^
+../CloneImplementaion.cpp:103:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<obj.size();i++)
+                         ^
+../CloneImplementaion.cpp:105:15: warning: deleting object of polymorphic class type ‘shape’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+   delete obj[i];
+               ^
+../CloneImplementaion.cpp:91:9: warning: unused variable ‘ptr1’ [-Wunused-variable]
+  shape *ptr1 = getObjectFromFactory(CIRCLE);
+         ^
+../CloneImplementaion.cpp:94:9: warning: variable ‘ptr2’ set but not used [-Wunused-but-set-variable]
+  shape *ptr2 = getObjectFromFactory(RECTANGLE);
+         ^
+Finished building: ../CloneImplementaion.cpp
+ 
+Building target: DesignPattern
+Invoking: Cross G++ Linker
+g++  -o "DesignPattern"  ./CloneImplementaion.o   
+Finished building target: DesignPattern
+ 
+18:57:29 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+18:57:35 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+18:58:26 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+../CloneImplementaion.cpp: In function ‘int main()’:
+../CloneImplementaion.cpp:99:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<obj.size();i++)
+                         ^
+../CloneImplementaion.cpp:103:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<obj.size();i++)
+                         ^
+../CloneImplementaion.cpp:105:15: warning: deleting object of polymorphic class type ‘shape’ which has non-virtual destructor might cause undefined behaviour [-Wdelete-non-virtual-dtor]
+   delete obj[i];
+               ^
+../CloneImplementaion.cpp:91:9: warning: unused variable ‘ptr1’ [-Wunused-variable]
+  shape *ptr1 = getObjectFromFactory(CIRCLE);
+         ^
+../CloneImplementaion.cpp:94:9: warning: variable ‘ptr2’ set but not used [-Wunused-but-set-variable]
+  shape *ptr2 = getObjectFromFactory(RECTANGLE);
+         ^
+Finished building: ../CloneImplementaion.cpp
+ 
+Building target: DesignPattern
+Invoking: Cross G++ Linker
+g++  -o "DesignPattern"  ./CloneImplementaion.o   
+Finished building target: DesignPattern
+ 
+18:58:26 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+18:58:32 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+18:59:31 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+18:59:58 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+../CloneImplementaion.cpp: In function ‘int main()’:
+../CloneImplementaion.cpp:99:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<obj.size();i++)
+                         ^
+../CloneImplementaion.cpp:103:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<obj.size();i++)
+                         ^
+../CloneImplementaion.cpp:91:9: warning: unused variable ‘ptr1’ [-Wunused-variable]
+  shape *ptr1 = getObjectFromFactory(CIRCLE);
+         ^
+../CloneImplementaion.cpp:94:9: warning: variable ‘ptr2’ set but not used [-Wunused-but-set-variable]
+  shape *ptr2 = getObjectFromFactory(RECTANGLE);
+         ^
+Finished building: ../CloneImplementaion.cpp
+ 
+Building target: DesignPattern
+Invoking: Cross G++ Linker
+g++  -o "DesignPattern"  ./CloneImplementaion.o   
+Finished building target: DesignPattern
+ 
+18:59:58 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+19:00:01 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+19:18:44 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../clone_enhanced.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"clone_enhanced.d" -MT"clone_enhanced.d" -o "clone_enhanced.o" "../clone_enhanced.cpp"
+../clone_enhanced.cpp: In function ‘int main()’:
+../clone_enhanced.cpp:101:16: error: ‘obj’ was not declared in this scope
+  for(int i=0;i<obj.size();i++)
+                ^
+../clone_enhanced.cpp:105:16: error: ‘obj’ was not declared in this scope
+  for(int i=0;i<obj.size();i++)
+                ^
+make: *** [clone_enhanced.o] Error 1
+19:18:44 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+19:44:51 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../clone_enhanced.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"clone_enhanced.d" -MT"clone_enhanced.d" -o "clone_enhanced.o" "../clone_enhanced.cpp"
+../clone_enhanced.cpp: In function ‘int main()’:
+../clone_enhanced.cpp:93:16: error: ‘obj’ was not declared in this scope
+  for(int i=0;i<obj.size();i++)
+                ^
+../clone_enhanced.cpp:97:16: error: ‘obj’ was not declared in this scope
+  for(int i=0;i<obj.size();i++)
+                ^
+make: *** [clone_enhanced.o] Error 1
+19:44:52 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:11:07 **** Clean-only build of configuration Debug for project DesignPattern ****
+make clean 
+rm -rf  ./CloneImplementaion.o ./clone_enhanced.o  ./CloneImplementaion.d ./clone_enhanced.d  DesignPattern
+ 
+20:11:07 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+../CloneImplementaion.cpp: In function ‘int main()’:
+../CloneImplementaion.cpp:101:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<obj.size();i++)
+                         ^
+../CloneImplementaion.cpp:105:25: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<obj.size();i++)
+                         ^
+Finished building: ../CloneImplementaion.cpp
+ 
+Building target: DesignPattern
+Invoking: Cross G++ Linker
+g++  -o "DesignPattern"  ./CloneImplementaion.o   
+Finished building target: DesignPattern
+ 
+20:11:07 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:11:11 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+20:15:52 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+../CloneImplementaion.cpp: In function ‘int main()’:
+../CloneImplementaion.cpp:93:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<myobj.size();i++)
+                           ^
+../CloneImplementaion.cpp:97:2: error: expected ‘;’ before ‘}’ token
+  }
+  ^
+../CloneImplementaion.cpp:98:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<myobj.size();i++)
+                           ^
+make: *** [CloneImplementaion.o] Error 1
+20:15:52 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:16:03 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+../CloneImplementaion.cpp: In function ‘int main()’:
+../CloneImplementaion.cpp:93:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<myobj.size();i++)
+                           ^
+../CloneImplementaion.cpp:98:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<myobj.size();i++)
+                           ^
+Finished building: ../CloneImplementaion.cpp
+ 
+Building target: DesignPattern
+Invoking: Cross G++ Linker
+g++  -o "DesignPattern"  ./CloneImplementaion.o   
+Finished building target: DesignPattern
+ 
+20:16:03 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:19:46 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+../CloneImplementaion.cpp: In function ‘int main()’:
+../CloneImplementaion.cpp:92:28: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i< myobj.size();i++)
+                            ^
+../CloneImplementaion.cpp:97:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<myobj.size();i++)
+                           ^
+Finished building: ../CloneImplementaion.cpp
+ 
+Building target: DesignPattern
+Invoking: Cross G++ Linker
+g++  -o "DesignPattern"  ./CloneImplementaion.o   
+Finished building target: DesignPattern
+ 
+20:19:47 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:21:41 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+../CloneImplementaion.cpp: In function ‘int main()’:
+../CloneImplementaion.cpp:89:28: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i< myobj.size();i++)
+                            ^
+../CloneImplementaion.cpp:94:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<myobj.size();i++)
+                           ^
+Finished building: ../CloneImplementaion.cpp
+ 
+Building target: DesignPattern
+Invoking: Cross G++ Linker
+g++  -o "DesignPattern"  ./CloneImplementaion.o   
+Finished building target: DesignPattern
+ 
+20:21:41 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:21:44 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+20:22:19 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+../CloneImplementaion.cpp: In function ‘int main()’:
+../CloneImplementaion.cpp:89:28: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i< myobj.size();i++)
+                            ^
+../CloneImplementaion.cpp:93:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<myobj.size();i++)
+                           ^
+Finished building: ../CloneImplementaion.cpp
+ 
+Building target: DesignPattern
+Invoking: Cross G++ Linker
+g++  -o "DesignPattern"  ./CloneImplementaion.o   
+Finished building target: DesignPattern
+ 
+20:22:20 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:22:23 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+20:23:56 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+../CloneImplementaion.cpp:57:1: error: ‘Publlic’ does not name a type
+ Publlic:
+ ^
+../CloneImplementaion.cpp: In function ‘int main()’:
+../CloneImplementaion.cpp:86:48: error: ‘getObjectFromFactory’ was not declared in this scope
+     myobj.push_back(getObjectFromFactory(CIRCLE));
+                                                ^
+../CloneImplementaion.cpp:92:28: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i< myobj.size();i++)
+                            ^
+../CloneImplementaion.cpp:96:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<myobj.size();i++)
+                           ^
+make: *** [CloneImplementaion.o] Error 1
+20:23:57 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:24:06 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+../CloneImplementaion.cpp:57:1: error: ‘publlic’ does not name a type
+ publlic:
+ ^
+../CloneImplementaion.cpp: In function ‘int main()’:
+../CloneImplementaion.cpp:86:48: error: ‘getObjectFromFactory’ was not declared in this scope
+     myobj.push_back(getObjectFromFactory(CIRCLE));
+                                                ^
+../CloneImplementaion.cpp:92:28: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i< myobj.size();i++)
+                            ^
+../CloneImplementaion.cpp:96:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<myobj.size();i++)
+                           ^
+make: *** [CloneImplementaion.o] Error 1
+20:24:06 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:25:11 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+../CloneImplementaion.cpp:58:1: error: ‘publlic’ does not name a type
+ publlic:
+ ^
+../CloneImplementaion.cpp: In function ‘int main()’:
+../CloneImplementaion.cpp:96:28: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i< myobj.size();i++)
+                            ^
+../CloneImplementaion.cpp:100:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<myobj.size();i++)
+                           ^
+make: *** [CloneImplementaion.o] Error 1
+20:25:11 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:26:34 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+../CloneImplementaion.cpp:57:1: error: ‘publlic’ does not name a type
+ publlic:
+ ^
+../CloneImplementaion.cpp: In function ‘int main()’:
+../CloneImplementaion.cpp:95:28: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i< myobj.size();i++)
+                            ^
+../CloneImplementaion.cpp:99:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<myobj.size();i++)
+                           ^
+make: *** [CloneImplementaion.o] Error 1
+20:26:34 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:27:39 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+../CloneImplementaion.cpp:53:1: error: ‘publlic’ does not name a type
+ publlic:
+ ^
+../CloneImplementaion.cpp:57:21: error: expected ‘;’ at end of member declaration
+      static shape * getObjectFromFactory(SHAPETYPE ishapetype);
+                     ^
+../CloneImplementaion.cpp:57:52: error: expected ‘)’ before ‘ishapetype’
+      static shape * getObjectFromFactory(SHAPETYPE ishapetype);
+                                                    ^
+../CloneImplementaion.cpp:60:37: error: ‘SHAPETYPE’ was not declared in this scope
+ static shape * getObjectFromFactory(SHAPETYPE ishapetype)
+                                     ^
+../CloneImplementaion.cpp:61:1: error: expected ‘,’ or ‘;’ before ‘{’ token
+ {
+ ^
+../CloneImplementaion.cpp:60:16: warning: ‘getObjectFromFactory’ defined but not used [-Wunused-variable]
+ static shape * getObjectFromFactory(SHAPETYPE ishapetype)
+                ^
+make: *** [CloneImplementaion.o] Error 1
+20:27:39 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:29:01 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+../CloneImplementaion.cpp: In function ‘int main()’:
+../CloneImplementaion.cpp:93:28: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i< myobj.size();i++)
+                            ^
+../CloneImplementaion.cpp:97:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<myobj.size();i++)
+                           ^
+Finished building: ../CloneImplementaion.cpp
+ 
+Building target: DesignPattern
+Invoking: Cross G++ Linker
+g++  -o "DesignPattern"  ./CloneImplementaion.o   
+Finished building target: DesignPattern
+ 
+20:29:02 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:30:26 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+../CloneImplementaion.cpp: In function ‘int main()’:
+../CloneImplementaion.cpp:87:48: error: ‘getObjectFromFactory’ was not declared in this scope
+     myobj.push_back(getObjectFromFactory(CIRCLE));
+                                                ^
+../CloneImplementaion.cpp:93:28: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i< myobj.size();i++)
+                            ^
+../CloneImplementaion.cpp:97:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<myobj.size();i++)
+                           ^
+make: *** [CloneImplementaion.o] Error 1
+20:30:27 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:31:20 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+Building file: ../CloneImplementaion.cpp
+Invoking: Cross G++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CloneImplementaion.d" -MT"CloneImplementaion.d" -o "CloneImplementaion.o" "../CloneImplementaion.cpp"
+../CloneImplementaion.cpp: In function ‘int main()’:
+../CloneImplementaion.cpp:93:28: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i< myobj.size();i++)
+                            ^
+../CloneImplementaion.cpp:97:27: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+  for(int i=0;i<myobj.size();i++)
+                           ^
+Finished building: ../CloneImplementaion.cpp
+ 
+Building target: DesignPattern
+Invoking: Cross G++ Linker
+g++  -o "DesignPattern"  ./CloneImplementaion.o   
+Finished building target: DesignPattern
+ 
+20:31:20 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:32:14 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+20:32:14 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:32:16 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+20:32:16 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:32:19 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+20:41:55 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+20:41:55 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:46:58 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+20:46:58 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:47:58 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+20:47:58 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:49:16 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+20:49:16 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:49:18 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+20:49:18 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:49:18 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+20:49:18 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:49:18 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+20:49:19 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:49:19 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+20:49:19 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:49:19 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+20:49:19 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:49:19 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+20:49:19 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:49:20 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+20:49:20 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:49:21 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+20:49:21 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:49:22 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+20:49:22 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:51:56 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.
+20:51:56 **** Incremental Build of configuration Debug for project RTOS ****
+make all 
+make: Nothing to be done for `all'.
+20:51:59 **** Incremental Build of configuration Debug for project DesignPattern ****
+make all 
+make: Nothing to be done for `all'.

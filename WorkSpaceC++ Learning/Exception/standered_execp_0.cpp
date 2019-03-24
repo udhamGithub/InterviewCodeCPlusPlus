@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	try
+	{
+	        while (true)
+	        {
+	            new int[100000000ul];
+	            cout<<"Memory Get Allocated\n";
+	        }
+	}
+	catch (const std::bad_alloc& e)
+	{
+	        std::cout << "Allocation failed: " << e.what() << '\n';
+	}
+}
+
+

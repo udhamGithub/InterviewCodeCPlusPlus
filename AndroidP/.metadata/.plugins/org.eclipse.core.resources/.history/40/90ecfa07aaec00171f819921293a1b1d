@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+class shape
+{
+public:
+	shape(){cout<<"shape:Base"<<endl;}
+};
+
+class circle: public shape
+{
+public:
+	circle(){cout<<"circle constructure"<<endl;}
+};
+
+
+class rectangle
+{
+
+}
+
+int main()
+{
+
+}
+
+
+

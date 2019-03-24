@@ -1,0 +1,24 @@
+/*
+ * ArryPointer.cpp
+ *
+ *  Created on: 14-Nov-2017
+ *      Author: ee205237
+ */
+#include<iostream>
+using namespace std;
+int main()
+{
+	int array[]={10,20,30,40};
+	//----Pointer increment-
+	//array++;                //error: lvalue required as increment operand  what is lvalue
+	//&array++;               //Array pointer is constanst, so lvalue are variable
+
+	//--aritmatic operation----------
+	array+1;
+	&array+1;
+	cout<<"\n array adress=%p" << array;
+	cout<<"\n &array adress=%p" << &array;
+}
+
+
+

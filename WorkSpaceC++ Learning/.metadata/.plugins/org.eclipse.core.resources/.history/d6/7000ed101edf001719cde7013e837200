@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+
+
+class Base
+{
+
+};
+int main()
+{
+	cout<<"My main Program:"<<endl;
+	unsigned char data=10; //1 Byte
+	//1.--Simple c style cast----
+	//int *ptr=&data;//pointer is 4 byte integer
+	int *ptr=(int*)&data;
+		//casting sucessfull but it is dangerous and it can cause segmentaion fault.
+		//User has to aware what  he is  doing
+	*ptr = 100;
+	cout<< "data:---"<<data;
+	//*ptr = 100;
+    //---------------------------------------------------------------
+	int *ptr2=(int*)&data;
+
+	return 0;
+}

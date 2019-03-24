@@ -1,0 +1,17 @@
+/*
+ * mutexVsSemaphor.cpp
+ *
+ *  Created on: 20-Nov-2017
+ *      Author: udham
+ */
+#include<iostream>
+using namespace std;
+int main()
+{
+	cout<<"My First Program";
+	return 0;
+}
+
+
+
+

@@ -1,0 +1,82 @@
+#if 0
+-Best vedio on myschoolcodes
+-how to write link list program in c++ ,contact example
+1.Write a program  to
+					a.reverse a  string  using recursion
+					b.revrse linklist using recursion
+
+		[a]--Iterartion(by using two index start and end and swaping each)
+			-Time complexity-o(n)-swaping operation n/2
+			-Space complexity-constant
+	    [b]--recursion:(function calling itself)
+	    	-implicit recusrsiom(stack used by system)
+	    	-explicit recusrsion(used own define stack or use standerd template method)
+					-push
+				    -pop
+				    -top
+
+2.Write a program to bubble sort using link list
+-----------------------------------------------------------------
+-example of recursion
+       -factorial of a number
+       -
+#endif
+#include<iostream>
+#include<string.h>
+#include<stack>
+using namespace std;
+class Cstring
+{
+	char *pstring;
+	int slenth;
+public:
+	Cstring(const char *ptr)
+	{
+		slenth=strlen(ptr);
+		pstring=new char[slenth+1];
+		strncpy(pstring,ptr,slenth);
+		cout<<"Constructure called";
+	}
+	void display()
+	{
+		cout<< pstring<<endl;
+	}
+	~Cstring()
+	{
+		delete pstring;
+	}
+	void reverse_recursionExplicit() //explicit recursion//stl
+	{
+		// push one one character
+		stack<char> mydata;
+		char *takedata;
+		for(int i=0;i<slenth+1;i++)
+		{
+			mydata.push(pstring[i]);
+		}
+		for(int j=0;j<slenth+1;j++)
+		{
+			pstring[j]=mydata.top();
+			mydata.pop();
+			cout<< takedata;
+		}
+	}
+	void reverse_recursionImplict()//system stack call
+	{
+
+	}
+	void reverse_itration()
+	{
+
+	}
+};
+int main()
+{
+	cout<<"string reversal"<<endl;
+	Cstring obj1("udham singh yadav");
+	obj1.display();
+	obj1.reverse_recursionExplicit();
+	obj1.display();
+}
+
+
